@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h1 {
+    @apply text-2xl py-8;
+}
+
+a {
+    @apply underline
+}
+
+p {
+    @apply py-3 text-slate-700
+}
+
+::selection {
+    @apply bg-rose-500
+}
+
+em {
+    @apply bg-rose-500 text-orange-100	
+}
+
+sup {
+    @apply text-xs
+}
+
+a:hover{
+    @apply bg-rose-500 text-orange-100	
+}
+
+.eleventy-plugin-embed-instagram {
+    @apply w-full py-4
+}

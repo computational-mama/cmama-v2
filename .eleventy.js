@@ -1,5 +1,6 @@
 const htmlmin = require('html-minifier')
 const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
+const embedEverything = require("eleventy-plugin-embed-everything");
 
 module.exports = function(eleventyConfig) {
   /**
@@ -13,7 +14,7 @@ module.exports = function(eleventyConfig) {
    * https://www.11ty.dev/docs/copy/
    */
   eleventyConfig.addPassthroughCopy('src/img')
-
+  eleventyConfig.addPlugin(embedEverything);
   /**
    * HTML Minifier for production builds
    */

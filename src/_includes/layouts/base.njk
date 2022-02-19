@@ -12,12 +12,17 @@
 
     <link rel="stylesheet" href="/{{ hash['css/styles.css'] }}"/>
     <script defer src="/{{ hash['js/scripts.js'] }}"></script>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet">
     {% block head %}{% endblock %}
+     <script src="https://unpkg.com/hydra-synth"></script>
   </head>
-  <body class="antialiased">
+  <body class="antialiased bg-orange-100">
     {% block content %}
+    <div class="max-w-prose p-8 font-mono z-0 text-lg ">
       {{ content | safe }}
+    </div>
     {% endblock %}
   </body>
 </html>
