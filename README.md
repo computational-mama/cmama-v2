@@ -57,3 +57,4 @@ const assets = [
   'js/scripts.js'
 ];
 ```
+# cmama-v2-2022
