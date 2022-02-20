@@ -31,5 +31,13 @@ a:hover{
 }
 
 .eleventy-plugin-embed-instagram {
-    @apply w-full py-4
+    @apply w-full
+}
+
+ul{
+    @apply text-slate-700
+}
+
+blockquote {
+    @apply rounded bg-orange-200 p-2 my-4
 }

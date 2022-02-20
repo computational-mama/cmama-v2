@@ -24,5 +24,7 @@
       {{ content | safe }}
     </div>
     {% endblock %}
+    {% set projlist = collections.projects | reverse %}
+    {% include "components/list.njk" %}
   </body>
 </html>

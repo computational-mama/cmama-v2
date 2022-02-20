@@ -1,7 +1,7 @@
 ---
-title: Coding with Friends
-description: Computational Mama - home page
-layout: layouts/base.njk
+title: new interfaces of friendship
+description: 
+layout: layouts/projects.njk
 ---
 
 # test

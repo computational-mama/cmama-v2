@@ -1,0 +1,13 @@
+<div class="max-w-prose p-4 fixed bottom-16 right-8">
+    <p class="text-bold font-mono">some thoughts and texts here</p>
+  {% for post in projlist %}
+   <div class="">
+      <ul class="flex flex-row">
+        </li>
+        <a class="font-mono lg:text-sm md:text-sm sm:text-sm" href="{{ post.url | url }}">{{ post.data.title }}</a>
+        </li>
+      </ul>
+    </div>
+   
+  {% endfor %}
+</div>
