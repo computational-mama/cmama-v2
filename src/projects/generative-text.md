@@ -8,13 +8,21 @@ A descending order of generative text explorations that I've posted on instagram
 
 > Try the [Simple poem-ish generator with the sentences from *A Cyborg Manifesto*](https://editor.p5js.org/ambikajo/full/4_0lxhiSA)
 
+Exploring generative texts with physical computing and circuitry
+
 https://www.instagram.com/p/CP_UCYiJC35/
 
 https://www.instagram.com/p/CP8pe24pLfQ/
 
+Build a hypochondriac diagnosis in pandemic times 
+
 https://www.instagram.com/p/CC6tbYWBt_j/
 
+Generate speculative assumptions
+
 https://www.instagram.com/p/CDF_fVRlJ5t/
+
+Consider new ingredients to build the perfect girls 
 
 https://www.instagram.com/p/CCvlefGIbql/
 
