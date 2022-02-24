@@ -2,6 +2,16 @@
 title: prototyping microcontrollers with p5js
 description: 
 layout: layouts/projects.njk
+thumbnails:
+    - img: /img/cardsheet-faceplate.jpg
+      caption: A cardsheet prototype for the faceplate
+    - img: /img/3D-printed-fail.jpg
+      caption: A 3d print that failed
+    - img: /img/3d-printed.jpg
+      caption: A somewhat final case!! The hole is for the potentiometer
+    - img: /img/macropad-desk.jpg
+      caption: I had to 3d print an extra piece to add height for the components
+    
 ---
 <sup>updated Feb 2022</sup> Last June (2021), I started getting interested in exploring physical computing after abuot 2-3 years of pure p5js fun! I didn't have a full sense of where to start, but was drawn to the [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/), a new microcontroller launched at the time. It's form and cost were important factors in choosing Pico over the Arduino line of boards. 
 
@@ -33,7 +43,7 @@ https://youtu.be/-oHTTcG9Ya8
 
 Eventually I've progressed the prototype form to a small macropad case (although this wasnt my original intention), its easy to be swayed by the beautiful cases on the internet and build your own. 
 
-![cardsheet prototype](/img/cardsheet-faceplate.jpg) 
+<!-- ![cardsheet prototype](/img/cardsheet-faceplate.jpg) 
 <sup>A cardsheet prototype for the faceplate</sup>
 
 ![3D Print that failed](/img/3D-printed-fail.jpg)
@@ -43,4 +53,4 @@ Eventually I've progressed the prototype form to a small macropad case (although
 <sup>A somewhat final case!! The hole is for the potentiometer</sup>
 
 ![at desk](/img/macropad-desk.jpg)
-<sup>I had to 3d print an extra piece to add height for the components</sup>
+<sup>I had to 3d print an extra piece to add height for the components</sup> -->

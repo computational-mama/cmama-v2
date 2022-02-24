@@ -6,4 +6,6 @@ layout: layouts/base.njk
 {# <h3>{{ date | readableDate }}</h3> #}
 <h1>{{ title }}</h1>
 <p class="text-lg">{{ content | safe }}</p>
+   {% include '../components/thumbnails.njk'%}
+
 </div>
