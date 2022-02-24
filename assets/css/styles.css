@@ -31,7 +31,11 @@ a:hover{
 }
 
 .eleventy-plugin-embed-instagram {
-    @apply w-full
+    @apply w-full my-6
+}
+
+.eleventy-plugin-youtube-embed {
+    @apply my-6
 }
 
 ul{
@@ -40,4 +44,8 @@ ul{
 
 blockquote {
     @apply rounded bg-orange-200 p-2 my-4
+}
+
+img {
+    @apply w-1/3
 }
