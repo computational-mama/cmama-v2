@@ -27,7 +27,7 @@ With the help of some amazing documentation on the [Adafruit Learn Section](http
 
 https://youtu.be/iS-ZmNogjL4
 
-I realised that Pico and Ciruitpython allows you access to the HID (Keyboard and Mouse) events on any computer with buttons, joysticks and even potentiometers. So I jumped into this head first applying the HID commands to my existing projects in p5js with keypressed and mouse events. The project in the video is a generative text randomizer. 
+I realised that Pico and Ciruitpython allows you access to the [HID](https://en.wikipedia.org/wiki/Human_interface_device) (Keyboard and Mouse) events on any computer with buttons, joysticks and even potentiometers. HID basically refers to  any device that 'humans'/people use to connect with the computer like a mouse, keyboard, or even a game controller. So I jumped into this head first applying the HID commands to my existing projects in p5js with keypressed and mouse events. The project in the video is a generative text randomizer. 
 
 https://youtu.be/3QRVyliTupM
 
@@ -42,15 +42,3 @@ https://youtu.be/-oHTTcG9Ya8
 
 
 Eventually I've progressed the prototype form to a small macropad case (although this wasnt my original intention), its easy to be swayed by the beautiful cases on the internet and build your own. 
-
-<!-- ![cardsheet prototype](/img/cardsheet-faceplate.jpg) 
-<sup>A cardsheet prototype for the faceplate</sup>
-
-![3D Print that failed](/img/3D-printed-fail.jpg)
-<sup>A 3d print that failed </sup>
-
-![final case with height error](/img/3d-printed.jpg)
-<sup>A somewhat final case!! The hole is for the potentiometer</sup>
-
-![at desk](/img/macropad-desk.jpg)
-<sup>I had to 3d print an extra piece to add height for the components</sup> -->
