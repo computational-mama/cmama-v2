@@ -1,6 +1,7 @@
 ---
 title: exploring generative texts
 description: 
+date: 2022-02-28
 layout: layouts/projects.njk
 ---
 <sup>updated Feb 2022</sup>

@@ -3,9 +3,16 @@ layout: layouts/base.njk
 ---
 {% include '../components/header.njk'%}
 <div class="lg:max-w-prose md:max-w-full sm:max-w-full">
-{# <h3>{{ date | readableDate }}</h3> #}
 <h1>{{ title }}</h1>
-<p class="text-lg">{{ content | safe }}</p>
+
+{# <sup>updated {{ page.date.toString() }}</sup> #}
+{# {{ page.date | date_format("%A, %B %e, %Y") }} #}
+{# {{ page.date | date_format("dddd, MMMM D, YYYY", "moment") }} #}
+
+<p class="text-lg">
+   <sup>updated {{ page.date | postDate }}</sup> 
+   {{ content | safe }}
+   </p>
    {% include '../components/thumbnails.njk'%}
 
 </div>

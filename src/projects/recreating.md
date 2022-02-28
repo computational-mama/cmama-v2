@@ -2,8 +2,9 @@
 title: creative coding for beginners
 description: recreating with p5js is a module to teach the basics of creative coding
 layout: layouts/projects.njk
+date: 2022-09-28
+
 ---
-<sup>updated September 2021</sup>
 *What do I mean when I say recreating with p5js?*
 
 Have you ever struggled with learning “hello world”? Have you ever been put off by the technical jargon that comes with learning code? I did for several years!! I found no relatability with programming concepts but I saw that it had so many possibilities for me to explore as a creator. I wondered if this was something others struggled with too.

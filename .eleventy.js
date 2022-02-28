@@ -1,6 +1,7 @@
 const htmlmin = require('html-minifier')
 const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 const embedEverything = require("eleventy-plugin-embed-everything");
+const { DateTime } = require("luxon");
 
 module.exports = function(eleventyConfig) {
   /**
@@ -15,6 +16,12 @@ module.exports = function(eleventyConfig) {
    */
   eleventyConfig.addPassthroughCopy('src/img')
   eleventyConfig.addPlugin(embedEverything);
+
+  /* adding date shortcode */
+  eleventyConfig.addFilter("postDate", (dateObj) => {
+    return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
+  });
+  
   /**
    * HTML Minifier for production builds
    */

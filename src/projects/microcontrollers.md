@@ -1,10 +1,12 @@
 ---
 title: prototyping microcontrollers with p5js
 description: 
-layout: layouts/projects.njk
+date: 2022-02-28
 thumbnails:
     - img: /img/cardsheet-faceplate.jpg
       caption: A cardsheet prototype for the faceplate
+    - img: /img/macropad-layout.png
+      caption: Thinking of a basic layout for the macropad
     - img: /img/3D-printed-fail.jpg
       caption: A 3d print that failed
     - img: /img/3d-printed.jpg
@@ -13,9 +15,9 @@ thumbnails:
       caption: I had to 3d print an extra piece to add height for the components
     
 ---
-<sup>updated Feb 2022</sup> Last June (2021), I started getting interested in exploring physical computing after abuot 2-3 years of pure p5js fun! I didn't have a full sense of where to start, but was drawn to the [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/), a new microcontroller launched at the time. It's form and cost were important factors in choosing Pico over the Arduino line of boards. 
+Last June (2021), I started getting interested in exploring physical computing after abuot 2-3 years of pure p5js fun! I didn't have a full sense of where to start, but was drawn to the *[Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/)*, a new microcontroller launched at the time. It's form and cost were important factors in choosing Pico over the Arduino line of boards. 
 
-It was any interesting start, as it was also my first attempt at soldering! Soldering is awesome and so liberating.  
+It was any interesting start, as it was also my first attempt at soldering! *Soldering is awesome and liberating*.  
 
 I started the project by roughly soldering some wires to these keyboard switches which were an impulse buy! I learnt later that macropad enthusiasts are a league of their own and there are some extremely beautiful pieces out there! 
 
