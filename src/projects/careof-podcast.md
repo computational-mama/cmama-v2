@@ -43,4 +43,4 @@ After two seasons of Coding with Friends, it seemed crucial to extend the conver
 
 > Through the conversations with guests coming into Coding with Friends, I found it was important to be focused on people and the process, not the product. It’s easy for all of us to fall into the trappings of creating “something.” (A product, an app, a tutorial even.) It’s very easy to forget that people come together as a group not because of a product but because they produced it “together!” As the Fellowship closes another season of Coding with Friends, I sense the importance of giving coding that texture and quality of listening, that togetherness and care.
 
-Linked here
+[Linked here](/projects/processing-fellowship-interview)
