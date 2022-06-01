@@ -1,6 +1,6 @@
 ---
 title: Building with Posenet
-description: 
+description: An ongoing and updated post about my experiments with posenet 
 date: 2021-12-24
 layout: layouts/projects.njk
 ---
@@ -43,3 +43,8 @@ https://www.instagram.com/p/CJHDThIpEjO/
 https://www.instagram.com/p/CWlaIRBIewG/
 
 https://www.youtube.com/watch?v=JcJ_SnEAUEg
+
+
+Starting some experiments with Handpose
+
+https://www.instagram.com/p/CdYE6QIqm27/
