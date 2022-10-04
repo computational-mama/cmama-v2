@@ -4,7 +4,7 @@ description: Computational Mama - home page
 layout: layouts/base.njk
 ---
 
-# About Computational Mama <sup>a.k.a ambika</sup>
+# Computational Mama <sup>a.k.a ambika</sup>
 
 https://www.youtube.com/watch?v=HtsF7T06WGo
 
@@ -20,3 +20,6 @@ She is a co-instigator of [dra.ft](https://dra-ft.site) which explores emergent 
 She is also known as Ambika, a museum professional with over 10 years of experience. She is co-founder of [Ajaibghar Cultural Services](https://ajaibghar.com), a consultancy for museums and culture projects.
 
 You are most likely to find her on [instagram](https://instagram.com/computational_mama), [youtube](https://www.youtube.com/c/ComputationalMama) and [twitch](https://www.twitch.tv/computational_mama)
+
+
+Click here for [CV(PDF)](/img/CMAMA_CV_sep2022.pdf)
