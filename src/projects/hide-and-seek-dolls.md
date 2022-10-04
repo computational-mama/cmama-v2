@@ -2,6 +2,19 @@
 title: Verstoppertje Poppetje (Hide and Seek Doll)
 description: A quick exploration with paper chain dolls and Posenet
 date: 2022-09-03
+thumbnails:
+    - img: /img/hide-n-seek-dolls-01.jpg
+      caption: Images from the Makers Meet & Eat, Utrecht
+    - img: /img/hide-n-seek-dolls-07.jpg
+      caption: Images from the Makers Meet & Eat, Utrecht
+    - img: /img/hide-n-seek-dolls-03.jpg
+      caption: Images from the Makers Meet & Eat, Utrecht
+    - img: /img/hide-n-seek-dolls-05.jpg
+      caption: Images from the Makers Meet & Eat, Utrecht
+    - img: /img/hide-n-seek-dolls-02.jpg
+      caption: Images from the Makers Meet & Eat, Utrecht
+    - img: /img/hide-n-seek-dolls-08.jpg
+      caption: Images from the Makers Meet & Eat, Utrecht
 layout: layouts/projects.njk
 ---
 
@@ -10,4 +23,4 @@ The conversation was accompanied by a craft activity. We decided to create small
 
 The format was devised keeping in mind that participants would have limited connectivity and no access to laptops. 
 
-This activity was part of the larger Makers Meet & Eat held at Utretcht in September 2022. 
+This activity was part of the larger Makers Meet & Eat held at Utrecht in September 2022. 

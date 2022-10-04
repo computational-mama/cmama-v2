@@ -1,21 +1,19 @@
 ---
-title: creative coding for beginners
+title: Recreating with p5.js
 description: recreating with p5js is a module to teach the basics of creative coding
 layout: layouts/projects.njk
 date: 2022-09-28
 
 ---
-*What do I mean when I say recreating with p5js?*
+*Recreating with p5js* is a workshop format spanning 10 hours over 4 weeks. It is a simple and approachable way for anyone to start learning the basics of coding. 
 
-Have you ever struggled with learning “hello world”? Have you ever been put off by the technical jargon that comes with learning code? I did for several years!! I found no relatability with programming concepts but I saw that it had so many possibilities for me to explore as a creator. I wondered if this was something others struggled with too.
+Moving away from the traditional “hello world” basics of computational thinking and coding, the format approaches the basics of javascript coding through recreating artworks of well known womxn artists of South Asia. Featured artists and artworks are mapped to the fundamentals of javascript coding, for example, learning about lines and coordinate systems with Nasreen Mohamedi, for loops through Zarina Hashmi, text and typography through Ayesha Jatoi. 
 
-Then I found [zach.lieberman](https://instagram.com/zach.lieberman) had this super cool course at [sfpc_nyc](https://www.instagram.com/sfpc_nyc/) where they were using computer art from the 70s/80s and recreating it with code! It was so radical and I set out to look for Indian artists who had done stuff like that with computer art.
+Centering the curriculum in basic art history of women artists, gives the format a strong feminist position of developing a skill that is associated with white male stereotypes. This project allows accessibility to those from non-STEM, non-coding  backgrounds to learn creative coding. It has also been easy to break age barriers, the workshop’s oldest student has been a 67 year old retired businesswoman and mother of two! 
 
-The search was in vain but I discovered some amazing south Asian womxn artists whose work would be exciting to recreate in code!
+*Recreating with p5js has been running since July 2020. The workshops have been widely attended with more than 100 students.* 
 
-*I discovered their stories and their processes, this journey was a paradigm shift for my practice as a creator.*
-
-In “Recreating with p5js”, we will explore artists’ works, lives and processes. To recreate with code is first an act of reflection and then an act of making. I’m leaving a few artworks and p5js prompts below, hope you find them as exciting as I do.
+https://www.youtube.com/watch?v=fOrDUsb_iNI
 
 <sup>NO. 1</sup>
 

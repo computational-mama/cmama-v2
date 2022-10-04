@@ -6,6 +6,8 @@ layout: layouts/base.njk
 
 # About Computational Mama <sup>a.k.a ambika</sup>
 
+https://www.youtube.com/watch?v=HtsF7T06WGo
+
 <sup>updated Feb 2022</sup>
 Computational Mama has been learning and experimenting with creative coding since 2017. 
 As a creative technologist, her work explores *coding as a form of self-care and learning*. She is a regular livestreamer on Twitch, where she teaches the basics of creative computation and new approaches to computational thinking. Her streaming series [Coding with Friends](https://friends.computationalmama.xyz) is rooted in creating inclusive spaces for womxn makers to explore creative computation. 
