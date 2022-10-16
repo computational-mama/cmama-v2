@@ -2,8 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'CirrusCumulus';
+    src: url("../img/fonts/CirrusCumulus.woff") format('woff');
+  }
+
+@font-face {
+    font-family: 'Compagnon';
+    src: url("../img/fonts/Compagnon-Roman.woff") format('woff');
+}
+
+@font-face {
+    font-family: 'Compagnon';
+    src: url("../img/fonts/Compagnon-Bold.woff") format('woff');
+    font-weight: bold
+}
+
+@font-face {
+    font-family: 'Compagnon';
+    src: url("../img/fonts/Compagnon-Italic.woff") format('woff');
+    font-style: italic
+}
+
+
+@font-face {
+    font-family: 'Compagnon';
+    src: url("../img/fonts/Compagnon-Light.woff") format('woff');
+    font-weight: light
+}
+
+@font-face {
+    font-family: 'Compagnon';
+    src: url("../img/fonts/Compagnon-Medium.woff") format('woff');
+    font-weight: medium
+}
+
 h1 {
-    @apply text-6xl py-4;
+    @apply text-4xl py-4;
 }
 
 h2 {
@@ -35,7 +70,7 @@ sup {
 }
 
 a:hover{
-    @apply bg-rose-500 text-orange-100	
+    @apply bg-rose-500 text-orange-100 no-underline
 }
 
 .eleventy-plugin-embed-instagram {
@@ -52,5 +87,30 @@ ul{
 
 blockquote {
     @apply rounded bg-orange-200 px-8 py-6 my-4
+}
+
+canvas {
+    @apply fixed top-0 -z-40
+}
+
+@layer components {
+    .text-header {
+        font-size: 12rem;
+        line-height: 0.7;
+    }
+
+    .grid-container {
+        position:relative;
+        display:grid;
+        grid-template-columns: repeat(5, 1fr);
+      }
+      
+      img {
+        position: absolute;
+        max-width: 200px;
+        height: auto;
+        /* transition: all 0.3s ease; */
+        transform: translate(var(--x-position), var(--y-position)) scale(0.75);
+      }
 }
 

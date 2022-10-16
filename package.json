@@ -34,6 +34,7 @@
   },
   "dependencies": {
     "eleventy-plugin-embed-everything": "^1.14.0",
+    "eleventy-plugin-youtube-embed": "^1.7.1",
     "luxon": "^2.3.1"
   }
 }

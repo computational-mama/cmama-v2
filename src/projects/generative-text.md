@@ -2,9 +2,7 @@
 title: exploring generative texts
 description: 
 date: 2022-02-28
-layout: layouts/projects.njk
 ---
-<sup>updated Feb 2022</sup>
 A descending order of generative text explorations that I've posted on instagram. Originally started with some simple ideas about using lists and jsons to build out speculative sentences! Quickly it was evident to me that the power of generative texts in this format is actually much more inticing than generative text produced by AI. A special thanks to [Allison Parrish](https://www.decontextualize.com/) and [Darius Kazemi](http://tinysubversions.com/) for extensive documentation and code examples that really make it easy to understand all this. 
 
 > Try the [Simple poem-ish generator with the sentences from *A Cyborg Manifesto*](https://editor.p5js.org/ambikajo/full/4_0lxhiSA)

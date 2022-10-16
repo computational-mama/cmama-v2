@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{{ title }}</title>
+    <meta charset="UTF-8"/>
+    {% if description %}
+      <meta name="description" content="{{ description }}"/>
+    {% endif %}
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover"/>
+    <meta name="generator" content="Eleventy"/>
+    <meta name="author" content="{{ site.authorName }}">
+    <meta name="description" content="{{ site.description }}">
+    <link rel="icon" href="{{ site.favicon }}" type="image/svg+xml"/>
+    <link rel="stylesheet" href="/{{ hash['css/styles.css'] }}"/>
+    <script defer src="/{{ hash['js/scripts.js'] }}"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap"
+      rel="stylesheet">
+    <script src="https://unpkg.com/hydra-synth"></script>
+    {# <script>
+              var hydra = new Hydra({ detectAudio: false })
+              osc(4, 0.1, 1.2).out()
+          </script> #}
+  </head>
+  <body class="antialiased">
+    <div class="p-4">
+       <div class="grid-container -z-50">
+          <img width="20%" src="/img/cardsheet-faceplate.jpg">
+          <img width="20%" src="/img/poetry-together.png">
+          <img width="20%" src="/img/hide-n-seek-dolls-01.jpg">
+          <img width="20%" src="/img/cwf-vai-nk2.gif">
+          <img width="20%" src="/img/posenet-early.gif">
+          <img width="20%" src="/img/poetry-t.gif">
+        
+        </div>
+      <div
+        class="fixed sm:max-w-sm md:max-w-md lg:max-w-full -z-40 break-words">
+        {# <h1 class="font-cirrus text-header" id="banner-text">{{ ['code as a practice of care','coding as a process','what code can produce, who can produce code and where it can be produced','Coding for value over solutions
+              ','Coding as a community','care with code as part of our lives and how it affects our work and workflow'] | random }}
+              </h1>  #}
+        <h1 class="font-cirrus text-header text-red-200" id="banner-text"></h1>
+       
+      </div>
+      {% set projlist = collections.projects | reverse %}
+      {% include "components/list.njk" %}
+      <h1 class="text-4xl m-5">
+        <a href="/about" class="m-2 font-comp font-bold">about computational mama</a>
+      </h1>
+    </div>
+  </body>
+</html>

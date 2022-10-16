@@ -1,18 +1,19 @@
 ---
 layout: layouts/base.njk
 ---
+<div class="mx-8 ">
 {% include '../components/header.njk'%}
-<div class="lg:max-w-prose md:max-w-full sm:max-w-full">
-<h1>{{ title }}</h1>
+
+<h1 class="font-cirrus">{{ title }}</h1>
 
 {# <sup>updated {{ page.date.toString() }}</sup> #}
 {# {{ page.date | date_format("%A, %B %e, %Y") }} #}
 {# {{ page.date | date_format("dddd, MMMM D, YYYY", "moment") }} #}
 
-<p class="text-lg">
+<p class="font-mono">
    <sup>updated {{ page.date | postDate }}</sup> 
    {{ content | safe }}
-   </p>
+</p>
    {% include '../components/thumbnails.njk'%}
 
 </div>

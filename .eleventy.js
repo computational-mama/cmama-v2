@@ -1,6 +1,8 @@
 const htmlmin = require('html-minifier')
 const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 const embedEverything = require("eleventy-plugin-embed-everything");
+const embedYouTube = require("eleventy-plugin-youtube-embed");
+
 const { DateTime } = require("luxon");
 
 module.exports = function(eleventyConfig) {
@@ -15,7 +17,10 @@ module.exports = function(eleventyConfig) {
    * https://www.11ty.dev/docs/copy/
    */
   eleventyConfig.addPassthroughCopy('src/img')
+  eleventyConfig.addPassthroughCopy('img/fonts');
+
   eleventyConfig.addPlugin(embedEverything);
+  eleventyConfig.addPlugin(embedYouTube);
 
   /* adding date shortcode */
   eleventyConfig.addFilter("postDate", (dateObj) => {

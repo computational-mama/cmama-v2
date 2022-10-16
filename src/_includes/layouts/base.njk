@@ -20,13 +20,12 @@
   
 
   </head>
-  <body class="antialiased bg-orange-100">
+  <body class="antialiased">
+
     {% block content %}
-    <div class="max-w-prose p-8 font-mono z-0 text-lg ">
+    <div class="p-8 z-0 font-comp text-lg ">
       {{ content | safe }}
     </div>
     {% endblock %}
-    {% set projlist = collections.projects | reverse %}
-    {% include "components/list.njk" %}
   </body>
 </html>

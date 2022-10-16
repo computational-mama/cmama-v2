@@ -20,7 +20,13 @@ module.exports = {
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        'cirrus': ["CirrusCumulus", "sans-serif"],
+        'comp': ["Compagnon", "sans-serif"],
+
+      }
+    },
   },
   plugins: [],
 }

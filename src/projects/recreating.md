@@ -1,7 +1,6 @@
 ---
 title: Recreating with p5.js
 description: recreating with p5js is a module to teach the basics of creative coding
-layout: layouts/projects.njk
 date: 2022-09-28
 
 ---

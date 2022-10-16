@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{{ title }}</title>
+    <meta charset="UTF-8"/>
+    {% if description %}
+      <meta name="description" content="{{description}}"/>
+    {% endif %}
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover"/>
+    <meta name="generator" content="Eleventy" />
+    <meta name="author" content="{{ site.authorName }}">
+    <meta name="description" content="{{ site.description }}">
+    <link rel="icon" href="{{ site.favicon }}" type="image/svg+xml" />
+    <link rel="stylesheet" href="/{{ hash['css/styles.css'] }}"/>
+    <script defer src="/{{ hash['js/scripts.js'] }}"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet">
+  
+
+  </head>
+  <body class="antialiased bg-orange-100">
+    {% block content %}
+    <div class="max-w-prose p-8 font-mono z-0 text-lg ">
+      {{ content | safe }}
+    </div>
+    {% endblock %}
+   <div class="mx-8">
+    <p class="text-bold font-mono italic">some thoughts and texts here</p>
+        {% set projlist = collections.projects | reverse %}
+<div class="flex flex-wrap">
+  {% for post in projlist %}
+    
+        <div class= "bg-white p-4 m-2 w-64">
+          
+         <img src="{{ post.feature }}" class="object-contain h-48 w-96">
+          <a class="font-mono text-center lg:text-sm md:text-sm sm:text-sm" href="{{ post.url | url }}">{{ post.data.title }}</a>
+        </div>
+
+   
+  {% endfor %}
+  </div>
+</div>
+  </body>
+</html>

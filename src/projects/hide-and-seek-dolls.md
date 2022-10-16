@@ -15,7 +15,6 @@ thumbnails:
       caption: Images from the Makers Meet & Eat, Utrecht
     - img: /img/hide-n-seek-dolls-08.jpg
       caption: Images from the Makers Meet & Eat, Utrecht
-layout: layouts/projects.njk
 ---
 
 As part of my ongoing exploration of body tracking and AI technologies related to it (mainly posenet and handpose libraries built by Google’s tensorflow), participants and I engaged in a conversation about AI technology, computer vision and machine training and biases. 

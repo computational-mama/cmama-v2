@@ -1,8 +1,8 @@
 ---
 title: C/o - The Podcast
 description: Intro to C/o podcast
+feature: /img/cardsheet-faceplate.jpg
 date: 2022-06-01
-layout: layouts/projects.njk
 ---
 ![care of podcast thumbnail](/img/smallcareof.png)
 

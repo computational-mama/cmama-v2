@@ -2,6 +2,7 @@
 title: prototyping microcontrollers with p5js
 description: 
 date: 2022-02-28
+feature: /img/cardsheet-faceplate.jpg
 thumbnails:
     - img: /img/cardsheet-faceplate.jpg
       caption: A cardsheet prototype for the faceplate
