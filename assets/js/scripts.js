@@ -15,7 +15,7 @@ const arr = [
     'coding as a process',
     'what code can produce', 
     'who can produce code', 
-    'where code be produced',
+    'where can code be produced',
     'Coding for value over solutions',
     'Coding as a community',
 ] 

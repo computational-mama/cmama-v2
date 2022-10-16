@@ -1,8 +1,21 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   content: ['./src/**/*.njk', './src/**/*.md',],
   theme: {
     fontFamily: {
       mono: ['JetBrains Mono', 'monospace'],
+    },
+    colors: {
+      black: colors.black,
+      white: colors.white,
+      gray: colors.gray,
+      rose: colors.rose,
+      red: colors.red,
+      fuchsia: colors.fuchsia,
+      pink: colors.pink,
+      slate: colors.slate,
+      orange: colors.orange
     },
     screens: {
       'sm': '640px',

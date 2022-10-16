@@ -93,10 +93,15 @@ canvas {
     @apply fixed top-0 -z-40
 }
 
+
+.text-header {
+    @apply text-[180px] break-all 
+}
+
 @layer components {
+
     .text-header {
-        font-size: 12rem;
-        line-height: 0.7;
+        line-height: 5.5rem !important
     }
 
     .grid-container {
