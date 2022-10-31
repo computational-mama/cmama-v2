@@ -13,7 +13,7 @@ function getRandomInt(max) {
 const arr = [
     'code as a practice of care',
     'coding as a process',
-    'what code can produce', 
+    'what can code produce', 
     'who can produce code', 
     'where can code be produced',
     'Coding for value over solutions',
