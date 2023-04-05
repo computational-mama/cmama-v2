@@ -12,6 +12,6 @@ Observing a lack of mother-like figures in the multitudes of AI-generated work, 
 
 Shown at:
 
-Feminism in Public Space project by Designathon, Zurich, March 2023
-BeFantastic TechArt Teasers, Samsung Opera House, Bengaluru, November 2022 
+- Feminism in Public Space project by Designathon, Zurich, March 2023
+- BeFantastic TechArt Teasers, Samsung Opera House, Bengaluru, November 2022 
 
