@@ -1,21 +1,17 @@
 ---
 title: Mother Machines
 description: Drawing from observations of lack of mother-like figures in the multitudes of AI generated work, the series is a persistent prompting strategy to generate as many mothers as the machine can churn out. Reproducing mothers not as saintly, but tired, strained, multi-tasking and sometimes in tears! Mother Machines continually pushes the AI model to imagine mother-ing, mother-ness and birthing.
-date: 2022-10-31
-bulkvideos:
-    - video: /img/amy_sherald_1.mp4
-      vidcaption: Mother Machine Video
-    - video: /img/c-section-mom-animated-16oct-2.mov
-      vidcaption: Mother Machine Video
-    - video: /img/c-section-mom-withinit.mov
-      vidcaption: Mother Machine Video
-    - video: /img/stable_diff_first_alice_trim.mp4
-      vidcaption: Mother Machine Video
-    - video: /img/tired-mom-with-laptop-h264.mov
-      vidcaption: Mother Machine Video
+date: 2022-11-03
 ---
 
-Drawing from observations of lack of mother-like figures in the multitudes of recent AI generated work (early to mid 2022), the series is a persistent prompting strategy to generate as many mothers as the machine can churn out. Reproducing mothers not as saintly, smiling, in happy and faithful servitude, but tired, strained, multi-tasking and sometimes in tears! Mother Machines continually pushes the AI model to imagine mother-ing, mother-ness and birthing.
+https://youtu.be/uGfj-g9Qgrw
 
-In the early images, when prompted by an artist's name, you will immediately see the visuals develop as per the style of the artist, but more importantly somehow capturing the some learned ideas about the artist. An almost nuanced understanding, I can't say how. 
+While the field of artificial intelligence is dominated by men, there are an overwhelming amount of instances where artificial intelligence technology is gendered as female, such as an instance in digital voice assistants like Amazon’s Alexa or Apple’s Siri. To be female is the default in AI-assisted technology, and yet, despite this, there is very little space that represents mothers and the labour of mothering. 
+
+Observing a lack of mother-like figures in the multitudes of AI-generated work, Mother Machines is a series created through a persistent prompting strategy that produces as many mothers/mothering-related imagery as the machine can possibly churn out. The project reproduces mothers not as saintly figures, but as tired, strained, multi-tasking, labouring and sometimes even in tears. Mother Machines continually pushes the AI model to (re)imagine notions of mothering, what it means to be a mother, and the act of birthing, making visible the invisibility of gendered work in motherhood.
+
+Shown at:
+
+Feminism in Public Space project by Designathon, Zurich, March 2023
+BeFantastic TechArt Teasers, Samsung Opera House, Bengaluru, November 2022 
 
