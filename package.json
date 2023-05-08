@@ -1,7 +1,7 @@
 {
-  "name": "yatas",
+  "name": "cmama-v2",
   "version": "1.0.0",
-  "description": "Yet Another Tailwind Apline Starter",
+  "description": "Work website for computational mama",
   "scripts": {
     "clean": "del _site",
     "watch-css": "npx tailwindcss -i ./assets/css/styles.css -o ./_site/css/styles.css -w",
@@ -17,7 +17,7 @@
     "TailwindCSS",
     "Alpine.js"
   ],
-  "author": "Yann Haefliger<hello@needbrainz.com>",
+  "author": "computational mama (ambika@ajaibghar.com)",
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
