@@ -29,4 +29,4 @@ She is also known as Ambika, a museum professional with over 10 years of experie
 You are most likely to find her on [instagram](https://instagram.com/computational_mama), [youtube](https://www.youtube.com/c/ComputationalMama) and [twitch](https://www.twitch.tv/computational_mama)
 
 
-Click here for [CV(PDF)](/img/CMAMA_CV_sep2022.pdf)
+Click here for [CV(PDF)](/img/CMAMA_CV_May_2023.pdf)
