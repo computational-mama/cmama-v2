@@ -1,12 +1,12 @@
 {
   "name": "cmama-v2",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Work website for computational mama",
   "scripts": {
     "clean": "del _site",
     "watch-css": "npx tailwindcss -i ./assets/css/styles.css -o ./_site/css/styles.css -w",
     "watch-js": "npx esbuild ./assets/js/scripts.js --outfile=./_site/js/scripts.js --bundle --target=es2018 --watch",
-    "start": "NODE_ENV=development concurrently \"node hash\"  \"ELEVENTY_ENV=development eleventy --serve\"  \"npm:watch-*\"",
+    "start": "cross-env NODE_ENV=development concurrently \"node hash\"  \"cross-env ELEVENTY_ENV=development eleventy --serve\"  \"npm:watch-*\"",
     "build-css": "npx tailwindcss -i ./assets/css/styles.css -o ./_site/css/styles.css --minify",
     "build-js": "npx esbuild ./assets/js/scripts.js --outfile=./_site/js/scripts.js  --bundle --target=es2018 --minify",
     "build": "NODE_ENV=production concurrently \"npm:build-*\" && node hash && ELEVENTY_ENV=production eleventy"
@@ -20,7 +20,7 @@
   "author": "computational mama (ambika@ajaibghar.com)",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.0",
+    "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-upgrade-help": "^1.0.1",
     "alpinejs": "^3.0.6",
     "autoprefixer": "^10.4.0",
@@ -33,6 +33,10 @@
     "tailwindcss": "^3.0.7"
   },
   "dependencies": {
+    "cloudinary": "^1.41.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.3.1",
+    "eleventy-plugin-cloudinary": "^0.0.1",
     "eleventy-plugin-embed-everything": "^1.14.0",
     "eleventy-plugin-youtube-embed": "^1.7.1",
     "luxon": "^2.3.1"

@@ -1,27 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>{{ title }}</title>
-    <meta charset="UTF-8"/>
-    {% if description %}
-      <meta name="description" content="{{ description }}"/>
-    {% endif %}
-    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover"/>
-    <meta name="generator" content="Eleventy"/>
-    <meta name="author" content="{{ site.authorName }}">
-    <meta name="description" content="{{ site.description }}">
-    <link rel="icon" href="{{ site.favicon }}" type="image/svg+xml"/>
-    <link rel="stylesheet" href="/{{ hash['css/styles.css'] }}"/>
-    <script defer src="/{{ hash['js/scripts.js'] }}"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap"
-      rel="stylesheet">
-
-  </head>
-  <body class="antialiased">
+---
+layout: layouts/base.njk
+---
     <div class="p-4">
        <div class="grid-container -z-50">
           <img width="20%" src="/img/cardsheet-faceplate.jpg">
@@ -46,5 +25,3 @@
         <a href="/about" class="m-2 font-comp font-bold">about computational mama</a>
       </h1>
     </div>
-  </body>
-</html>
