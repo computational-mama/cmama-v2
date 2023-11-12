@@ -50,7 +50,7 @@ h3 {
 }
 
 a {
-    @apply underline
+    @apply underline 
 }
 
 p {
@@ -70,7 +70,7 @@ sup {
 }
 
 a:hover{
-    @apply bg-rose-500 text-orange-100 no-underline
+    @apply bg-rose-500  no-underline
 }
 
 .eleventy-plugin-embed-instagram {
@@ -81,8 +81,12 @@ a:hover{
     @apply my-6
 }
 
-ul{
-    @apply text-slate-700 list-disc pl-5 space-y-3 marker:text-slate-700  py-2  
+#content > ul{
+    @apply text-slate-700 list-disc pl-5 space-y-3 marker:text-slate-700  py-2 
+}
+
+#navbar > ul{
+    @apply list-none
 }
 
 blockquote {
@@ -97,6 +101,8 @@ canvas {
 .text-header {
     @apply text-[180px] break-all 
 }
+
+
 
 @layer components {
 
@@ -118,4 +124,5 @@ canvas {
         transform: translate(var(--x-position), var(--y-position)) scale(0.75);
       }
 }
+
 

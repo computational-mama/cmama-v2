@@ -21,7 +21,10 @@
 
   </head>
   <body class="antialiased">
+     <div id="navbar" class=" w-full font-comp font-bold">
 
+{% include '../components/menunav.njk'%}
+</div>
     {% block content %}
     <div class="z-0 font-comp text-lg ">
       {{ content | safe }}

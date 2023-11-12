@@ -1,8 +1,10 @@
   <p class="font-comp font-bold text-4xl">some work and texts below</p>
-
+  <div class="go-to w-full flex flex-col flex-wrap md:flex-row lg:flex-row xl:flex-row 2xl:flex-row md:w-2/3 lg:w-2/3  xl:w-2/3  2xl:w-2/3 ">
   {% for post in projlist %}
-    <div class="m-5">
-        <a class="font-cirrus italic text-2xl" href="{{ post.url | url }}">{{ post.data.title }}</a>
+  <a class=" no-underline bg-center bg-cover bg-repeat bg-white/20 backdrop-blur-sm	 border-2  border-rose-500 rounded-lg p-8 mx-4 my-2" href="{{ post.url | url }}" style="background-image:url('{{ post.data.featimg}}') , linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.7))">
+    <div class="font-comp font-bold text-xl w-52 h-36"><span class="bg-white bg-blend-color-dodge">
+        {{ post.data.title }}</span>
     </div> 
+ </a>
   {% endfor %}
-  
+  </div>

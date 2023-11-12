@@ -2,6 +2,10 @@
 title: Creating Space for Womxn Creators (interview)
 description: An interview with Johanna Hedva for Processing Foundation Fellowshop 2021
 date: 2022-01-06
+featimg: /img/Cwf-season2-processingfellowship-image1.png
+tags: 
+  - code 
+  - texts
 
 ---
 

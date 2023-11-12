@@ -2,6 +2,7 @@
 title: Verstoppertje Poppetje (Hide and Seek Doll)
 description: A quick exploration with paper chain dolls and Posenet
 date: 2022-09-03
+featimg: /img/hide-n-seek-dolls-01.jpg
 thumbnails:
     - img: /img/hide-n-seek-dolls-01.jpg
       caption: Images from the Makers Meet & Eat, Utrecht

@@ -2,8 +2,14 @@
 layout: layouts/base.njk
 ---
 <div class="mx-6 my-4 lg:max-w-prose lg:ml-12 font-mono">
-{% include '../components/header.njk'%}
+{# {% include '../components/header.njk'%} #}
 
+{% if eleventyNavigation and eleventyNavigation.parent %}
+<nav class="breadcrumb" aria-labelledby="breadcrumb">
+  <h2 class="" id="breadcrumb">Breadcrumbs: </h2>
+  {{ collections.projects | eleventyNavigationBreadcrumb(eleventyNavigation.parent, {includeSelf: true}) | safe }}
+</nav>
+{% endif %}
 <h1 class="font-cirrus">{{ title }}</h1>
 
 {# <sup>updated {{ page.date.toString() }}</sup> #}
@@ -12,7 +18,7 @@ layout: layouts/base.njk
 
 <p class="font-mono">
    <sup>updated {{ page.date | postDate }}</sup> 
-   {{ content | safe }}
+   <div id="content">{{ content | safe }}</div>
 </p>
    {% include '../components/thumbnails.njk'%}
    {% include '../components/bulkvideo.njk'%}

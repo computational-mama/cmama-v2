@@ -2,6 +2,8 @@
 title: Don't Assemble
 description: An ongoing and updated post about my experiments with posenet 
 date: 2020-02-27
+tags: ai
+featimg: "/img/dontassemble1.jpg"
 ---
 *first presented at Processing Community Day, 2020 (New Delhi)*
 

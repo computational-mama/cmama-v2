@@ -3,6 +3,7 @@ const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 const embedEverything = require("eleventy-plugin-embed-everything");
 const embedYouTube = require("eleventy-plugin-youtube-embed");
 const pluginCloudinaryImage = require("eleventy-plugin-cloudinary");
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 const { DateTime } = require("luxon");
 
@@ -22,6 +23,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPlugin(embedEverything);
   eleventyConfig.addPlugin(embedYouTube);
+  eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
 
   

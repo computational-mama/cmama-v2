@@ -2,6 +2,9 @@
 title: Computational Mama
 description: Computational Mama - home page
 layout: layouts/projects.njk
+eleventyNavigation:
+  key: About
+  order: 5
 ---
 
 

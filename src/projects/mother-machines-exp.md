@@ -13,6 +13,8 @@ bulkvideos:
       vidcaption: Mother Machine Video
     - video: /img/tired-mom-with-laptop-h264.mov
       vidcaption: Mother Machine Video
+tags: ai
+
 ---
 
 Drawing from observations of lack of mother-like figures in the multitudes of recent AI generated work (early to mid 2022), the series is a persistent prompting strategy to generate as many mothers as the machine can churn out. Reproducing mothers not as saintly, smiling, in happy and faithful servitude, but tired, strained, multi-tasking and sometimes in tears! Mother Machines continually pushes the AI model to imagine mother-ing, mother-ness and birthing.

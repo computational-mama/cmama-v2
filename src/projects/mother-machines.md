@@ -2,6 +2,7 @@
 title: Mother Machines
 description: Drawing from observations of lack of mother-like figures in the multitudes of AI generated work, the series is a persistent prompting strategy to generate as many mothers as the machine can churn out. Reproducing mothers not as saintly, but tired, strained, multi-tasking and sometimes in tears! Mother Machines continually pushes the AI model to imagine mother-ing, mother-ness and birthing.
 date: 2022-11-03
+tags: ai
 ---
 
 https://youtu.be/uGfj-g9Qgrw

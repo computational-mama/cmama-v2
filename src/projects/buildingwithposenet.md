@@ -2,6 +2,7 @@
 title: Building with Posenet
 description: An ongoing and updated post about my experiments with posenet 
 date: 2021-12-24
+tags: ai
 ---
 This library from tensorflow allows human pose estimation in real time for 17 body points. I started exploring *posenet* at home with my family and it quickly evolved into being part of a performance, called Mutatis Mutandis that was created by [Agat](https://www.dobedobedo.be/). 
 
