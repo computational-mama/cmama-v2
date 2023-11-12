@@ -2,8 +2,11 @@
 title: Care with Computers - essay for Public Pedagogies
 description: Caring with Computers - a conversation between Computational Mama and Diwas Raja Kc 
 date: 2023-08-10
-tags: texts
+tags: 
+  - texts
+  - code
+featimg: /img/dalle3caringwithcode.png
 ---
-https://www.publicpedagogies.org/journal/
+[Journal](https://www.publicpedagogies.org/journal/)
 
-https://www.publicpedagogies.org/wp-content/uploads/2023/07/04Mama2023.pdf
+[article](https://www.publicpedagogies.org/wp-content/uploads/2023/07/04Mama2023.pdf)
