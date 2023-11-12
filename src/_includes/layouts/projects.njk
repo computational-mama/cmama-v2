@@ -2,8 +2,7 @@
 layout: layouts/base.njk
 ---
 <div class="mx-6 my-4 lg:max-w-prose lg:ml-12 font-mono">
-{# {% include '../components/breadcrumb.njk'%} #}
-  {# <p class="font-comp font-bold text-4xl">{{eleventyNavigation.key}}</p> #}
+
 <h1 class="font-cirrus">{{ title }}</h1>
    <div class="flex flex-row flex-wrap">
 {% for tag in tags %}
@@ -12,10 +11,7 @@ layout: layouts/base.njk
    {% endif %}
 {% endfor %}
 </div>
-{# <p class="font-mono"><sup>updated {{ page.date | postDate }}</sup></p> #}
-{# <sup>updated {{ page.date.toString() }}</sup> #}
-{# {{ page.date | date_format("%A, %B %e, %Y") }} #}
-{# {{ page.date | date_format("dddd, MMMM D, YYYY", "moment") }} #}
+
 
 <p class="font-mono">
    <sup>updated {{ page.date | postDate }}</sup> 

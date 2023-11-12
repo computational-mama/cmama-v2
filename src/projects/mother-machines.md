@@ -5,7 +5,7 @@ date: 2022-11-03
 tags: 
   - ai
   - motherhood
-featimg: "/img/mother-machine-thumb.png"
+featimg: "img/mother-machine-thumb.png"
 ---
 
 https://youtu.be/uGfj-g9Qgrw

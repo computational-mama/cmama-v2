@@ -6,7 +6,7 @@ tags:
   - texts
   - code
   - care
-featimg: /img/dalle3caringwithcode.png
+featimg: img/dalle3caringwithcode.png
 ---
 [Journal](https://www.publicpedagogies.org/journal/)
 
