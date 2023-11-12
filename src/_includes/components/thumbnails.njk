@@ -1,7 +1,7 @@
 <div class="flex flex-row flex-wrap">
 {% for thumb in thumbnails %}
         <div class="flex flex-col m-2">
-			<img class="w-64" src={{thumb.img}}>	
+			<img class="w-full md:w-96 lg:w-64 xl:w-64 2xl:w-64" src={{thumb.img}}>	
 			<p class="w-64 text-sm" >{{thumb.caption}}</p>
         </div>
 {% endfor %}	
