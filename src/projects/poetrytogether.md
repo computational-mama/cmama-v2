@@ -2,13 +2,23 @@
 title: Poetry Together
 description: Embodied Poetry with Machine Learning
 date: 2022-08-27
-tags: ai
+tags: 
+  - ai
+  - workshop
+  - posenet
+  - generative poetry
+  - teachable machines
+  - ml5js
+  - p5js
+  - care
+  - friendships 
 featimg: /img/screenshot-poetry-together-code-2022.jpeg
 ---
 
+This workshop was a quick and simple introduction to body tracking and learn the basics of AI and Machine Learning in the context of the human body poses. After understanding the basics of training a machine with body poses, the participants were encouraged to produce a simple interactive webcam based project, where you can train the machine to produce verses of poetry based on body poses and mapped on the body parts but only if two or more people appear together on the webcam. 
+
 ![screenshot from the poetry together code project](/img/screenshot-poetry-together-code-2022.jpeg)
 ![ image from poetry together code workshop](/img/poetry-together-code-2022.jpg)
-This workshop was a quick and simple introduction to body tracking and learn the basics of AI and Machine Learning in the context of the human body poses. After understanding the basics of training a machine with body poses, the participants were encouraged to produce a simple interactive webcam based project, where you can train the machine to produce verses of poetry based on body poses and mapped on the body parts but only if two or more people appear together on the webcam. 
 
 ## Teach a poem to the computer
 

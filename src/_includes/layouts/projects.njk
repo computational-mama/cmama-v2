@@ -2,16 +2,17 @@
 layout: layouts/base.njk
 ---
 <div class="mx-6 my-4 lg:max-w-prose lg:ml-12 font-mono">
-{# {% include '../components/header.njk'%} #}
-
-{% if eleventyNavigation and eleventyNavigation.parent %}
-<nav class="breadcrumb" aria-labelledby="breadcrumb">
-  <h2 class="" id="breadcrumb">Breadcrumbs: </h2>
-  {{ collections.projects | eleventyNavigationBreadcrumb(eleventyNavigation.parent, {includeSelf: true}) | safe }}
-</nav>
-{% endif %}
+{# {% include '../components/breadcrumb.njk'%} #}
+  {# <p class="font-comp font-bold text-4xl">{{eleventyNavigation.key}}</p> #}
 <h1 class="font-cirrus">{{ title }}</h1>
-
+   <div class="flex flex-row flex-wrap">
+{% for tag in tags %}
+{% if tag != "projects" %}
+      <p class="border italic px-4 py-2 rounded-full text-xs">{{ tag }}</p>
+   {% endif %}
+{% endfor %}
+</div>
+{# <p class="font-mono"><sup>updated {{ page.date | postDate }}</sup></p> #}
 {# <sup>updated {{ page.date.toString() }}</sup> #}
 {# {{ page.date | date_format("%A, %B %e, %Y") }} #}
 {# {{ page.date | date_format("dddd, MMMM D, YYYY", "moment") }} #}

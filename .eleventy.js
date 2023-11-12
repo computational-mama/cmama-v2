@@ -18,20 +18,33 @@ module.exports = function(eleventyConfig) {
    * Files to copy
    * https://www.11ty.dev/docs/copy/
    */
-  eleventyConfig.addPassthroughCopy('src/img')
-  eleventyConfig.addPassthroughCopy('img/fonts');
+  eleventyConfig.addPassthroughCopy("src/img");
+  eleventyConfig.addPassthroughCopy("img/fonts");
 
   eleventyConfig.addPlugin(embedEverything);
   eleventyConfig.addPlugin(embedYouTube);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
-
-  
   /* adding date shortcode */
   eleventyConfig.addFilter("postDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
   });
-  
+
+  // Return all the tags used in a collection
+  eleventyConfig.addFilter("getAllTags", (collection) => {
+    let tagSet = new Set();
+    for (let item of collection) {
+      (item.data.tags || []).forEach((tag) => tagSet.add(tag));
+    }
+    return Array.from(tagSet);
+  });
+
+  eleventyConfig.addFilter("filterTagList", function filterTagList(tags) {
+    return (tags || []).filter(
+      (tag) => ["all", "nav", "post", "posts", "projects"].indexOf(tag) === -1
+    );
+  });
+
   /* adding cloudinary details */
   eleventyConfig.cloudinaryCloudName = "djdzm7lii";
   eleventyConfig.addPlugin(pluginCloudinaryImage);
@@ -40,27 +53,27 @@ module.exports = function(eleventyConfig) {
   /**
    * HTML Minifier for production builds
    */
-  eleventyConfig.addTransform('htmlmin', function (content, outputPath) {
+  eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
     if (
-      process.env.ELEVENTY_ENV == 'production' &&
+      process.env.ELEVENTY_ENV == "production" &&
       outputPath &&
-      outputPath.endsWith('.html')
+      outputPath.endsWith(".html")
     ) {
       let minified = htmlmin.minify(content, {
         useShortDoctype: true,
         removeComments: true,
         collapseWhitespace: true,
-      })
-      return minified
+      });
+      return minified;
     }
 
-    return content
-  })
+    return content;
+  });
 
   return {
     dir: {
       input: "src",
-      data: "../_data"
-    }
+      data: "../_data",
+    },
   };
 };

@@ -6,7 +6,8 @@ featimg: /img/Cwf-season2-processingfellowship-image1.png
 tags: 
   - code 
   - texts
-
+  - care
+  - friendships
 ---
 
 <sup>This is a copy of the interview that I gave to the Processing Foundation at the end of my Fellowship. While it is also published on their [Medium blog](https://medium.com/processing-foundation/ambika-joshi-on-creating-space-for-womxn-creators-through-coding-with-friends-805c00301e39), I felt have published it here too!</sup> 

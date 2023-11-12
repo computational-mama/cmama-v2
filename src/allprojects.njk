@@ -1,8 +1,9 @@
 ---
 layout: layouts/base.njk
 eleventyNavigation:
-  key: Others
-  order: 4
+  key: All Projects
+  order: 1
+permalink: projects/index.html
 ---
        <div class="p-4">
       <div
@@ -12,8 +13,8 @@ eleventyNavigation:
        
       </div>
 
-
-      {% set projlist = collections.projects | reverse %}
+      {# {% if collections.projects.length > 0 %} #}
+      {% set projlist = collections.projects %}
       {% include "components/list.njk" %}
       
     </div>

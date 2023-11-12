@@ -2,7 +2,10 @@
 title: Care Garden
 description:  
 date: 2023-06-23
-tags: code
+tags: 
+- code
+- care
+featimg: /img/caregarden-thumb.png
 ---
 I built 
 

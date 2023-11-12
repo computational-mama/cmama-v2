@@ -3,7 +3,11 @@ title: C/o - The Podcast
 description: Intro to C/o podcast
 featimg: /img/cardsheet-faceplate.jpg
 date: 2022-06-01
-tags: podcast
+tags: 
+ - podcast
+ - care
+ - code
+ - motherhood
 ---
 ![care of podcast thumbnail](/img/smallcareof.png)
 

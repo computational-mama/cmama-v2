@@ -1,0 +1,15 @@
+<div class="go-to w-full flex flex-col flex-wrap md:flex-row lg:flex-row xl:flex-row 2xl:flex-row">
+  {% for post in projlist %}
+    <a class="m-2 no-underline bg-cover bg-center  bg-blend-darken odd:bg-rose-500/60 even:bg-orange-500/60 rounded-full p-8 text-center items-center " href="{{ post.url | url }}" style="background-image:url('{{ post.data.featimg}}') , linear-gradient(rgba(180, 100, 20, 0.7),
+          rgba(0, 20, 200, 0.7))">
+      <div class="text-xl  w-36 h-36 flex flex-col justify-center ">
+        <span class="font-comp text-white font-bold text-md self-center">
+          {{ post.data.title }}</span>
+
+      </div>
+
+    </a>
+
+  {% endfor %}
+
+</div>

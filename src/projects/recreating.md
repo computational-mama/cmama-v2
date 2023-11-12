@@ -2,7 +2,11 @@
 title: Recreating with p5.js
 description: recreating with p5js is a module to teach the basics of creative coding
 date: 2022-09-28
-tags: code
+tags: 
+  - workshop
+  - code
+  - care
+  - p5js
 featimg: /img/recreating-thumb.png
 ---
 *Recreating with p5js* is a workshop format spanning 10 hours over 4 weeks. It is a simple and approachable way for anyone to start learning the basics of coding. 

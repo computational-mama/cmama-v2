@@ -5,6 +5,7 @@ date: 2023-08-10
 tags: 
   - texts
   - code
+  - care
 featimg: /img/dalle3caringwithcode.png
 ---
 [Journal](https://www.publicpedagogies.org/journal/)

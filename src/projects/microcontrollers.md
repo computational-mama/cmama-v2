@@ -2,7 +2,7 @@
 title: prototyping microcontrollers with p5js
 description: 
 date: 2022-02-28
-feature: /img/cardsheet-faceplate.jpg
+featimg: /img/cardsheet-faceplate.jpg
 thumbnails:
     - img: /img/cardsheet-faceplate.jpg
       caption: A cardsheet prototype for the faceplate
@@ -14,7 +14,11 @@ thumbnails:
       caption: A somewhat final case!! The hole is for the potentiometer
     - img: /img/macropad-desk.jpg
       caption: I had to 3d print an extra piece to add height for the components
-    
+tags: 
+  - code   
+  - microcontrollers
+  - rp2040
+  - raspberry pi pico
 ---
 Last June (2021), I started getting interested in exploring physical computing after abuot 2-3 years of pure p5js fun! I didn't have a full sense of where to start, but was drawn to the *[Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/)*, a new microcontroller launched at the time. It's form and cost were important factors in choosing Pico over the Arduino line of boards. 
 

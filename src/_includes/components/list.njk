@@ -1,10 +1,22 @@
-  <p class="font-comp font-bold text-4xl">some work and texts below</p>
-  <div class="go-to w-full flex flex-col flex-wrap md:flex-row lg:flex-row xl:flex-row 2xl:flex-row md:w-2/3 lg:w-2/3  xl:w-2/3  2xl:w-2/3 ">
+<p class="font-comp font-bold text-4xl">{{eleventyNavigation.key}}</p>
+
+<div class="go-to w-full flex flex-col flex-wrap md:flex-row lg:flex-row xl:flex-row 2xl:flex-row md:w-2/3 lg:w-2/3  xl:w-2/3  2xl:w-2/3 ">
   {% for post in projlist %}
-  <a class=" no-underline bg-center bg-cover bg-repeat bg-white/20 backdrop-blur-sm	 border-2  border-rose-500 rounded-lg p-8 mx-4 my-2" href="{{ post.url | url }}" style="background-image:url('{{ post.data.featimg}}') , linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.7))">
-    <div class="font-comp font-bold text-xl w-52 h-36"><span class="{% if post.data.featimg  %}bg-white{%endif%}">
-        {{ post.data.title }}</span>
-    </div> 
- </a>
+    <a class=" no-underline bg-center bg-cover bg-repeat bg-blend-darken border-2  border-rose-500 rounded-lg p-8 mx-4 my-2" href="{{ post.url | url }}" style="background-image:url('{{ post.data.featimg}}') , linear-gradient(rgba(180, 100, 20, 0.7),
+          rgba(0, 20, 200, 0.7))">
+      <div class="text-xl w-52 h-36">
+        <span class=" text-white font-comp font-bold ">
+          {{ post.data.title }}</span>
+          <br>
+   {% for tag in post.data.tags %}
+        {% if tag != "projects" %}
+          <span class="bg-white/50 rounded-full px-2 font-mono  italic text-xs">{{ tag }}</span>
+        {% endif %}
+      {% endfor %}
+       </div>
+         
+    </a>
+    
   {% endfor %}
-  </div>
+
+</div>

@@ -13,7 +13,10 @@ bulkvideos:
       vidcaption: Mother Machine Video
     - video: /img/tired-mom-with-laptop-h264.mov
       vidcaption: Mother Machine Video
-tags: ai
+tags: 
+ - ai
+ - motherhood
+ - birthing
 
 ---
 

@@ -4,7 +4,7 @@ description: Computational Mama - home page
 layout: layouts/projects.njk
 eleventyNavigation:
   key: About
-  order: 5
+  order: 8
 ---
 
 
@@ -13,7 +13,7 @@ eleventyNavigation:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HtsF7T06WGo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-A creative technolist / AI tinkerer / mom person. India / Netherlands.
+A creative technologist / AI tinkerer / mom person. India / Netherlands.
 
 Computational Mama/Ambika is an AI prompt crafter, Creative technologist, and product designer currently working as a AI (LLM and GEN AI) Product Evangelist and Community Manager at GOOEY.AI. She has experience in applied GenAI prompting, specializing in using Large Language Models (LLMs), text and image prompting, image diffusion since early 2019.
 

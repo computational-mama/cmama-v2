@@ -1,8 +1,5 @@
 ---
 layout: layouts/base.njk
-eleventyNavigation:
-  key: Home
-  order: 1
 ---
     <div class="p-4">
        <div class="grid-container -z-50">
@@ -14,29 +11,30 @@ eleventyNavigation:
           <img class="w-56" src="/img/poetry-t.gif">
         
         </div>
+       
       <div
         class="fixed sm:max-w-sm md:max-w-md lg:max-w-full xl:max-w-full lg:text-[240px] -z-40 break-words">
         <h1 class="font-cirrus text-header text-rose-200 max-w-prose" id="banner-text"></h1>
        
-      </div>
+      </div> 
       <div class="indexpagecontent m-5">
       <h2 class="text-xl max-w-prose font-mono z-50">
-        <span class=" bg-rose-500 md:bg-rose-500/30  lg:bg-rose-500/30  xl:bg-rose-500/30  2xl:bg-rose-500/30 backdrop-blur-sm">{{ site.description }}</span>
+        <span class=" bg-rose-500 md:bg-rose-500/60  lg:bg-rose-500/60  xl:bg-rose-500/60  2xl:bg-rose-500/60 backdrop-blur-sm">{{ site.description }}</span>
         </h2>
-          <h2 class="font-mono"><span class=" bg-rose-500 backdrop-blur-sm">Work</span></h2>
-          <p class="font-mono max-w-prose text-black"><span class=" bg-rose-500">Over the last few years, there are two clear streams for my practice with AI and Creative Coding. You can find out more in the sections:</span></p>
+
+          <p class="font-mono max-w-prose text-black"><span class=" bg-rose-500">Head over to the various sections for the context you are interested in:</span></p>
         <div class=" go-to w-full flex flex-col md:flex-row lg:flex-row xl:flex-row 2xl:flex-row flex-wrap">
           <a href="/ai" class="bg-white/20 backdrop-blur-sm	 border-2  border-rose-500 rounded-lg p-8 mx-4 my-2">
             <div class="m-2 font-comp font-bold w-52 h-36 text-3xl">ai</div></a>
           <a href="/code" class="bg-white/20 backdrop-blur border-2  border-rose-500 rounded-lg p-8 mx-4 my-2">
-            <div class="m-2 font-comp font-bold  w-52 h-36 text-3xl">code</div></a>
-          <a href="/others" class="bg-white/20 backdrop-blur border-2 border-rose-500 rounded-lg p-8 mx-4 my-2"><div class="m-2 font-comp font-bold w-52 h-36 text-3xl">others</div></a>
+            <div class="m-2 font-comp font-bold  w-52 h-36 text-3xl">creative code</div></a>
+          <a href="/care" class="bg-white/20 backdrop-blur border-2 border-rose-500 rounded-lg p-8 mx-4 my-2"><div class="m-2 font-comp font-bold w-52 h-36 text-3xl">Care and Motherhood</div></a>  
+          <a href="/projects" class="bg-white/20 backdrop-blur border-2 border-rose-500 rounded-lg p-8 mx-4 my-2"><div class="m-2 font-comp font-bold w-52 h-36 text-3xl">All Projects</div></a>
         </div>
-
-      {# {% set projlist = collections.latest | reverse %}
-      {% include "components/list.njk" %} #}
-      {# <h1 class="text-4xl m-5">
-        <a href="/about" class="m-2 font-comp font-bold">about computational mama</a>
-      </h1> #}
+        
+        
+      <h1 class="text-4xl m-5">
+        <a href="/about" class="m-2 font-comp font-bold ">about computational mama</a>
+      </h1>
       </div>
     </div>
