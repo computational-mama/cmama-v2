@@ -3,7 +3,6 @@ const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 const embedEverything = require("eleventy-plugin-embed-everything");
 const embedYouTube = require("eleventy-plugin-youtube-embed");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
-const pluginCloudinaryImage = require("eleventy-plugin-cloudinary");
 
 const { DateTime } = require("luxon");
 
@@ -45,17 +44,10 @@ module.exports = function(eleventyConfig) {
     );
   });
 
-  /* adding cloudinary details */
-  eleventyConfig.cloudinaryCloudName = "djdzm7lii";
-    eleventyConfig.addShortcode(
-      "cloudinaryImage",
-      function (path, transforms, alt) {
-        return `<img src="https://res.cloudinary.com/${eleventyConfig.cloudinaryCloudName}/${transforms}/${path}" alt="${alt}">`;
-      }
-    );
-    eleventyConfig.addPlugin(pluginCloudinaryImage);
+
 
   // eleventyConfig.hostname = "https://computationalmama.xyz";
+
 
   /**
    * HTML Minifier for production builds
