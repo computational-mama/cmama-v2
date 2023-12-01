@@ -3,126 +3,145 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'CirrusCumulus';
-    src: url("../img/fonts/CirrusCumulus.woff") format('woff');
-  }
-
-@font-face {
-    font-family: 'Compagnon';
-    src: url("../img/fonts/Compagnon-Roman.woff") format('woff');
+  font-family: "CirrusCumulus";
+  src: url("../img/fonts/CirrusCumulus.woff") format("woff");
 }
 
 @font-face {
-    font-family: 'Compagnon';
-    src: url("../img/fonts/Compagnon-Bold.woff") format('woff');
-    font-weight: bold
+  font-family: "Compagnon";
+  src: url("../img/fonts/Compagnon-Roman.woff") format("woff");
 }
 
 @font-face {
-    font-family: 'Compagnon';
-    src: url("../img/fonts/Compagnon-Italic.woff") format('woff');
-    font-style: italic
-}
-
-
-@font-face {
-    font-family: 'Compagnon';
-    src: url("../img/fonts/Compagnon-Light.woff") format('woff');
-    font-weight: light
+  font-family: "Compagnon";
+  src: url("../img/fonts/Compagnon-Bold.woff") format("woff");
+  font-weight: bold;
 }
 
 @font-face {
-    font-family: 'Compagnon';
-    src: url("../img/fonts/Compagnon-Medium.woff") format('woff');
-    font-weight: medium
+  font-family: "Compagnon";
+  src: url("../img/fonts/Compagnon-Italic.woff") format("woff");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Compagnon";
+  src: url("../img/fonts/Compagnon-Light.woff") format("woff");
+  font-weight: light;
+}
+
+@font-face {
+  font-family: "Compagnon";
+  src: url("../img/fonts/Compagnon-Medium.woff") format("woff");
+  font-weight: medium;
 }
 
 h1 {
-    @apply text-4xl py-4;
+  @apply text-4xl py-4;
 }
 
 h2 {
-    @apply text-2xl py-4;
+  @apply text-lg py-4;
 }
 
 h3 {
-    @apply text-xl py-4;
+  @apply text-xl py-4;
 }
 
 a {
-    @apply underline 
+  @apply underline;
 }
 
 p {
-    @apply py-3 text-slate-700
+  @apply py-3 text-slate-700;
 }
 
 ::selection {
-    @apply bg-rose-500
+  @apply bg-rose-500;
 }
 
 em {
-    @apply bg-rose-500 text-orange-100	
+  @apply bg-rose-500 text-orange-100;
 }
 
 sup {
-    @apply text-xs
+  @apply text-xs;
 }
 
-a:hover{
-    @apply bg-rose-500  no-underline
+a:hover {
+  @apply bg-rose-500  no-underline;
 }
 
 .eleventy-plugin-embed-instagram {
-    @apply w-full my-6
+  @apply w-full my-6;
 }
 
 .eleventy-plugin-youtube-embed {
-    @apply my-6
+  @apply my-6;
 }
 
-#content > ul{
-    @apply text-slate-700 list-disc pl-5 space-y-3 marker:text-slate-700  py-2 
+#content > ul {
+  @apply text-slate-700 list-disc pl-5 space-y-3 marker:text-slate-700  py-2;
 }
 
-#navbar > ul{
-    @apply list-none
+#navbar > ul {
+  @apply list-none;
 }
 
 blockquote {
-    @apply rounded bg-orange-200 px-8 py-6 my-4
+  @apply rounded bg-orange-200 px-8 py-6 my-4;
 }
 
 canvas {
-    @apply fixed top-0 -z-40
+  @apply fixed top-0 -z-40;
 }
-
 
 .text-header {
-    @apply text-[180px] break-all 
+  @apply text-[180px] break-all;
 }
 
+ul {
+  @apply text-slate-700 list-disc pl-5 space-y-3 marker:text-slate-700  py-2;
+}
 
 
 @layer components {
+  .text-header {
+    line-height: 5.5rem !important;
+  }
 
-    .text-header {
-        line-height: 5.5rem !important
-    }
+  .grid-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
 
-    .grid-container {
-        position:relative;
-        display:grid;
-        grid-template-columns: repeat(5, 1fr);
-      }
-      
-    .grid-container  img {
-        position: absolute;
-        max-width: 200px;
-        height: auto;
-        /* transition: all 0.3s ease; */
-        transform: translate(var(--x-position), var(--y-position)) scale(0.75);
-      }
+  .grid-container img {
+    position: absolute;
+    max-width: 200px;
+    height: auto;
+    /* transition: all 0.3s ease; */
+    transform: translate(var(--x-position), var(--y-position)) scale(0.75);
+  }
 }
 
+@media page {
+  @page {
+    size: A4;
+        margin: 10mm;
+        @bottom-right{
+          content: counter(page) " / " counter(pages) ;
+          font-family: "CirrusCumulus" ;
+          font-size: small;
+        }
 
+    /* marks: crop cross; */
+   
+  }
+  .chapter {
+    break-before: page;
+  }
+  
+ 
+
+}

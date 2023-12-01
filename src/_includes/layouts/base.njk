@@ -17,7 +17,30 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet">
+      <script>
+    function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
+  }
   
+const arr = [
+    'code as a practice of care',
+    'coding as a process',
+    'what can code produce', 
+    'who can produce code', 
+    'where can code be produced',
+    'Coding for value over solutions',
+    'Coding as a community',
+] 
+  
+
+const banner = arr[getRandomInt(arr.length)]
+
+ if(document.getElementById("banner-text")){
+    document.getElementById("banner-text").innerHTML = banner
+ console.log(banner)
+ }
+  </script>
+  <script src="https://unpkg.com/pagedjs/dist/paged.polyfill.js"></script>
 
   </head>
   <body class="antialiased">

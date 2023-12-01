@@ -45,15 +45,25 @@ module.exports = function(eleventyConfig) {
     );
   });
 
+    eleventyConfig.addCollection("projects", function (collection) {
+      // Your code to collect pages goes here
+      // For instance:
+      return collection.getFilteredByGlob("src/projects/*.md");
+    });
+  // Custom sort filter
+  eleventyConfig.addFilter("sortByWeight", function (projects) {
+    return projects.sort((a, b) => (a.data.weight > b.data.weight ? 1 : -1));
+  });
+
   /* adding cloudinary details */
   eleventyConfig.cloudinaryCloudName = "djdzm7lii";
-    eleventyConfig.addShortcode(
-      "cloudinaryImage",
-      function (path, transforms, alt) {
-        return `<img src="https://res.cloudinary.com/${eleventyConfig.cloudinaryCloudName}/${transforms}/${path}" alt="${alt}">`;
-      }
-    );
-    eleventyConfig.addPlugin(pluginCloudinaryImage);
+  eleventyConfig.addShortcode(
+    "cloudinaryImage",
+    function (path, transforms, alt) {
+      return `<img src="https://res.cloudinary.com/${eleventyConfig.cloudinaryCloudName}/${transforms}/${path}" alt="${alt}">`;
+    }
+  );
+  eleventyConfig.addPlugin(pluginCloudinaryImage);
 
   // eleventyConfig.hostname = "https://computationalmama.xyz";
 
