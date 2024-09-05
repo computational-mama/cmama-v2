@@ -27,5 +27,5 @@ She is a co-instigator of dra.ft which explores emergent ideas of text and its f
 You are most likely to find her on [instagram](https://instagram.com/computational_mama), [youtube](https://www.youtube.com/c/ComputationalMama) and [twitch](https://www.twitch.tv/computational_mama)
 
 
-Click here for [CV(PDF)](/img/CMAMA_CV_May_2023.pdf)
+Click here for [CV(PDF)](/img/AMBIKAJOSHI_CMAMA_CV_SEP2024.pdf)
 <!-- TODO change the CV -->
