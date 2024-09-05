@@ -14,7 +14,24 @@
     <meta name="generator" content="Eleventy" />
     <meta name="author" content="{{ site.name }}" />
     <meta name="description" content="{{ site.description }}" />
-    <link rel="icon" href="{{ site.favicon }}" type="image/svg+xml" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/img/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/img/site.webmanifest" />
     <link rel="stylesheet" href="/{{ hash['css/styles.css'] }}" />
     <script defer src="/{{ hash['js/scripts.js'] }}"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -25,31 +42,19 @@
     />
 
     <!-- Facebook Meta Tags -->
-    <meta property="og:url" content={{site.url}} />
+    <meta property="og:url" content="https://computationalmama.xyz" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content={{title}} />
-    <meta
-      property="og:description"
-      content={{site.description}}
-    />
-    <meta
-      property="og:image"
-      content={{featimg}}
-    />
+    <meta property="og:title" content="{{title}}" />
+    <meta property="og:description" content="{{site.description}}" />
+    <meta property="og:image" content="{{featimg}}" />
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta property="twitter:domain" content={{site.url}} />
-    <meta property="twitter:url" content={{site.url}} />
-    <meta name="twitter:title" content={{title}} />
-    <meta
-      name="twitter:description"
-      content={{site.description}}
-    />
-    <meta
-      name="twitter:image"
-      content={{featimg}}
-    />
+    <meta property="twitter:domain" content="computationalmama.xyz" />
+    <meta property="twitter:url" content="https://computationalmama.xyz" />
+    <meta name="twitter:title" content="{{title}}" />
+    <meta name="twitter:description" content="{{description}}" />
+    <meta name="twitter:image" content="{{featimg}}" />
   </head>
   <body class="antialiased">
     <div id="navbar" class="w-full font-comp font-bold">

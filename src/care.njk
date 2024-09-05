@@ -14,7 +14,22 @@ eleventyNavigation:
 
       <div class="max-w-prose">
         <p class="font-comp font-bold  text-4xl">a collection of thoughts, resources, and reflections on care, code and motherhood</p>
-   
+   <div class="thoughts">
+        <h2 class="text-2xl font-comp font-bold"><span class=" bg-rose-500">Thoughts on motherhood, care, coding, AI</span></h2>
+        <div class="list-disc space-y-6 bg-white/20 backdrop-blur-sm">
+          {% for items in read %}
+          {% for thoughts in items.publicthoughts %}
+          <p class="text-lg font-mono border-2 rounded-md p-6">
+         "{{ thoughts.excerpt }}"
+           
+          <a href="{{thoughts.url}}" target="_blank" class="text-base font-comp font-bold">
+            link here
+          </a>
+          </p>
+       {% endfor %}
+        {% endfor %}
+        </div>
+     </div>
       <div class="readinglist ">
         <h2 class="text-2xl font-comp font-bold"><span class=" bg-rose-500">List of readings</span></h2>
         <ul class="list-disc">
@@ -37,21 +52,6 @@ eleventyNavigation:
         {% endfor %}
         </ul>
      </div>
-      <div class="thoughts">
-        <h2 class="text-2xl font-comp font-bold"><span class=" bg-rose-500">Thoughts on motherhood, care, coding, AI</span></h2>
-        <div class="list-disc space-y-6 bg-white/20 backdrop-blur-sm">
-          {% for items in read %}
-          {% for thoughts in items.publicthoughts %}
-          <p class="text-lg font-mono border-2 rounded-md p-6">
-         "{{ thoughts.excerpt }}"
-           
-          <a href="{{thoughts.url}}" target="_blank" class="text-base font-comp font-bold">
-            link here
-          </a>
-          </p>
-       {% endfor %}
-        {% endfor %}
-        </div>
-     </div>
+      
     </div>
      </div>
