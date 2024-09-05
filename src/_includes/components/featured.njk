@@ -1,0 +1,43 @@
+<div
+  class="go-to w-full flex flex-row flex-wrap"
+>
+  {% for post in projlist %} 
+  {% if post.data.featured %}
+  <a
+    class="no-underline bg-center bg-cover bg-repeat bg-blend-darken border-2 border-rose-500 rounded-lg p-8 mx-4 my-2"
+    href="{{ post.url | url }}"
+    style="background-image:url('{{ post.data.featimg}}') , linear-gradient(rgba(180, 100, 20, 0.7),
+          rgba(0, 20, 200, 0.7))"
+  >
+    <div class="text-xl w-52 h-36">
+      <span class="text-white font-comp font-bold"> {{ post.data.title }}</span>
+      <br />
+       {% for tag in post.data.tags %}
+        {% if tag != "projects" %}
+          <span class="bg-white/50 rounded-full px-2 font-mono  italic text-xs">{{ tag }}</span>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </a>
+  {% endif %} 
+
+  {% endfor %}
+    {% for event in events %}
+      {% if event.featured  %}
+
+     <a
+    class="no-underline bg-center bg-cover bg-repeat bg-blend-darken border-2 border-rose-500 rounded-lg p-8 mx-4 my-2"
+    href="{{ event.eventlink | url }}" target="_blank"
+    style="background-image:url('{{ event.image }}') , linear-gradient(rgba(180, 100, 20, 0.7),
+          rgba(0, 20, 200, 0.7))"
+  >
+    <div class="text-xl w-52 h-36">
+      <span class="text-white font-comp font-bold"> {{ event.title }}</span> <span class="rotate-45 text-white"> &rarr;</span>
+      <br />
+            <span class="bg-white/80 rounded-sm px-2 font-mono  italic text-xs">{{ event.location }} {{ event.date }}</span>
+     
+    </div>
+  </a>
+  {% endif %} 
+  {% endfor %}
+</div>

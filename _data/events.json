@@ -1,0 +1,209 @@
+[
+    {
+      "id": 1,
+      "title": "Measuring Silences",
+      "location": "HEAD, Geneve",
+      "date": "April 2024",
+      "image": "",
+      "eventlink": "https://www.youtube.com/live/Oqfc46nLT94?t=2370s",
+      "featured": true,
+      "type": "talk"
+    },
+    {
+      "id": 2,
+      "title": "care<codes>: Care work, AI, Motherhood",
+      "location": "Online, Jnanapravaha, Mumbai",
+      "date": "March 2024",
+      "image": "",
+      "eventlink": "https://www.jp-india.org/uploads/quarterly/pdf/jnanapravaha-quarterly-58.pdf#page=16",
+      "featured": true,
+      "type": "talk"
+    },
+    {
+      "id": 3,
+      "title": "Machine Learning X Audiovisual Industry - Aippy Hour 1: Worldbuilding",
+      "location": "Online, GIFF, Geneva",
+      "date": "November 2023",
+      "image": "",
+      "eventlink": "https://2023.giff.ch/en/event/machine-learning-x-audiovisual-industry-aippy-hour-1-worldbuilding/",
+      "featured": false,
+      "type": "talk"
+    },
+    {
+      "id": 4,
+      "title": "Speaker Series: Creative And Critical Practices in Technology",
+      "location": "NYU Shanghai",
+      "date": "October 2023",
+      "image": "",
+      "eventlink": "https://ima.shanghai.nyu.edu/events/speaker-series-creative-and-critical-practices-technology",
+      "featured": false,
+      "type": "talk"
+    },
+    {
+      "id": 5,
+      "title": "Panelist, Famous Last Words",
+      "location": "Bengaluru International Centre, Bengaluru",
+      "date": "August 2023",
+      "image": "",
+      "eventlink": "https://bangaloreinternationalcentre.org/event/famous-last-words/",
+      "featured": false,
+      "type": "talk"
+    },
+    {
+      "id": 6,
+      "title": "Bump Festival",
+      "location": "Online, Kotrijk",
+      "date": "June 2023",
+      "image": "",
+      "eventlink": "https://bump-festival.be/2023/speakers/computational-mama/",
+      "featured": false,
+      "type": "talk"
+    },
+    {
+      "id": 7,
+      "title": "Screenwalks",
+      "location": "Fotomuseum Winterthur and The Photographers’ Gallery",
+      "date": "April 2023",
+      "image": "",
+      "eventlink": "https://screenwalks.com/",
+      "featured": false,
+      "type": "talk"
+    },
+    {
+      "id": 8,
+      "title": "Distortion Series 2023: Talking to Robots",
+      "location": "HEAD, Geneve",
+      "date": "March 2023",
+      "image": "",
+      "eventlink": "https://www.hesge.ch/head/evenement/2023/distortion-series-2023-talking-robots",
+      "featured": false,
+      "type": "talk"
+    },
+    {
+      "id": 9,
+      "title": "Makers Meet & Eat",
+      "location": "Utrecht, (CCU, Raum, Impakt, Setup)",
+      "date": "September 2022",
+      "image": "",
+      "eventlink": "https://www.instagram.com/p/Chj97MHo65O/?hl=en",
+      "featured": false,
+      "type": "talk"
+    },
+    {
+      "id": 10,
+      "title": "Coding with Friends",
+      "location": "Iterations Online, Amsterdam",
+      "date": "November 2021",
+      "image": "",
+      "eventlink": "https://iterations.online/participants/computational-mama/",
+      "featured": false,
+      "type": "talk"
+    },
+    {
+      "id": 11,
+      "title": "Handmade Code",
+      "location": "Delhi Technological Institute",
+      "date": "April 2021",
+      "image": "",
+      "eventlink": "",
+      "featured": false,
+      "type": "talk"
+    },
+    {
+      "id": 12,
+      "title": "Handmade Code",
+      "location": "Meetup FOSS United",
+      "date": "February 2021",
+      "image": "",
+      "eventlink": "https://youtu.be/U5HC-_fo8M0?t=5521",
+      "featured": false,
+      "type": "talk"
+    },
+    {
+      "id": 13,
+      "title": "Handmade Code",
+      "location": "Digikat",
+      "date": "August 2020",
+      "image": "",
+      "eventlink": "https://juzbox.github.io/DigikatMicrosite/",
+      "featured": false,
+      "type": "talk"
+    },
+    {
+      "id": 14,
+      "title": "Algorave India: Delhi Edition",
+      "location": "BANANA HOUSE, Delhi",
+      "date": "September 2019",
+      "image": "",
+      "eventlink": "http://algorave.in/events/delhi-2019.html",
+      "featured": false,
+      "type": "talk"
+    },
+    {
+        "id": 15,
+        "title": "Code.drift",
+        "location": "Udaipur and Jaipur (IN-PERSON)",
+        "date": "August 2023 - November 2023",
+        "image": "",
+        "description": "4 day workshops combining city heritage, music, visuals and code. A workshop to build cityscapes with code.",
+        "eventlink": "https://ajaibghar.com/codedrift",
+        "featured": false,
+        "type": "workshop"
+      },
+      {
+        "id": 16,
+        "title": "Generative AI",
+        "location": "ONLINE AND IN-PERSON",
+        "date": "September 2022 - ongoing",
+        "image": "",
+        "description": "Over 40 workshops since September 2022 on Stable Diffusion, chatGPT, and all the latest generative AI tools.",
+        "eventlink": "",
+        "featured": false,
+        "type": "workshop"
+      },
+      {
+        "id": 17,
+        "title": "Fingerp(ai)nting with words",
+        "location": "@ AIxDesign, Netherlands (ONLINE)",
+        "date": "September 2022",
+        "image": "https://www.eventbrite.nl/cc/aixd-presents-ai-playground-1018539",
+        "description": "A 2-4 hours workshop on hand tracking on webcam and creating generative poetry visualised on the fingertips.",
+        "eventlink": "",
+        "featured": false,
+        "type": "workshop"
+      },
+      {
+        "id": 18,
+        "title": "Poetry together",
+        "location": "@ Creative Coding Utrecht, Netherlands (IN-PERSON)",
+        "date": "September 2022",
+        "image": "https://www.instagram.com/p/ChKLfNJol6p/?hl=en",
+        "description": "A 4-6 hours workshop on body tracking and creating movement-based poetry and typographical experiments.",
+        "eventlink": "",
+        "featured": false,
+        "type": "workshop"
+      },
+      {
+        "id": 19,
+        "title": "Handle with care",
+        "location": "@ JK Lakshmipat University (ONLINE)",
+        "date": "March 2022",
+        "image": "",
+        "description": "A 5-day workshop style module for design students, with interactive coding-based visuals integrated into physical cardboard prototypes.",
+        "eventlink": "",
+        "featured": false,
+        "type": "workshop"
+      },
+      {
+        "id": 20,
+        "title": "Recreating with p5js",
+        "location": "various organisations and independently (ONLINE AND IN-PERSON)",
+        "date": "July 2020 - ongoing",
+        "image": "",
+        "description": "A 10-hour (staggered) workshop module that introduces creative coding and interactive artworks to designers and artists.",
+        "eventlink": "https://computationalmama.xyz/projects/recreating/",
+        "featured": false,
+        "type": "workshop"
+      }
+  ]
+  

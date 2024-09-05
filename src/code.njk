@@ -1,16 +1,8 @@
 ---
 layout: layouts/base.njk
-eleventyNavigation:
-  key: code
-  order: 3
 ---
     <div class="p-4">
-      <div
-        class="fixed sm:max-w-sm md:max-w-md lg:max-w-full xl:max-w-full lg:text-[240px] -z-40 break-words">
- 
-        <h1 class="font-cirrus text-header text-rose-300" id="banner-text"></h1>
-       
-      </div>
+{% include "components/banner.njk" %}
 
 
       {% set projlist = collections.code | reverse %}

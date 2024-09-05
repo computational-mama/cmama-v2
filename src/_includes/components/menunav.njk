@@ -22,7 +22,7 @@
 <ul class="pt-6 lg:pt-0 list-reset lg:flex justify-end flex-1 items-center list-none">
 {%- for entry in navPages %}
   <li{% if entry.url == page.url %} class="nav__item mr-3"{% endif %}>
-    <a a @click="isOpen = false" class="text-lg inline-block  no-underline hover:text-indigo-500 py-2 px-4" href="{{ entry.url }}">{{ entry.title }}</a>
+    <a @click="isOpen = false" class="text-lg inline-block  no-underline hover:text-indigo-500 py-2 px-4" href="{{ entry.url }}">{{ entry.title }}</a>
   </li>
 {%- endfor %}
 </ul>

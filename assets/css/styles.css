@@ -99,7 +99,7 @@ canvas {
 
 
 .text-header {
-    @apply text-[180px] break-all 
+    @apply text-8xl break-all 
 }
 
 
