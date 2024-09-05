@@ -14,7 +14,7 @@ permalink: projects/index.html
       </div>
 
       {# {% if collections.projects.length > 0 %} #}
-      {% set projlist = collections.projects %}
+      {% set projlist = collections.projects | reverse %}
       {% include "components/list.njk" %}
       
     </div>

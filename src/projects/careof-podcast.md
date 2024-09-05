@@ -1,7 +1,7 @@
 ---
 title: C/o - The Podcast
 description: Intro to C/o podcast
-featimg: /img/cardsheet-faceplate.jpg
+featimg: /img/care-of-podcast.png
 date: 2022-06-01
 tags: 
  - podcast

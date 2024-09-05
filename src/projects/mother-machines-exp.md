@@ -2,6 +2,7 @@
 title: Mother Machines Experiments
 description: Drawing from observations of lack of mother-like figures in the multitudes of AI generated work, the series is a persistent prompting strategy to generate as many mothers as the machine can churn out. Reproducing mothers not as saintly, but tired, strained, multi-tasking and sometimes in tears! Mother Machines continually pushes the AI model to imagine mother-ing, mother-ness and birthing.
 date: 2022-10-31
+featimg: /img/mothermachine-experiments-thumb.png
 bulkvideos:
     - video: /img/amy_sherald_1.mp4
       vidcaption: Mother Machine Video
