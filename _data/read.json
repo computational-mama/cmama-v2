@@ -1,5 +1,58 @@
- [
-    { "name": "Computational Mama", "url": "https://computationalmama.xyz" },
-    { "name": "Mama", "url": "https://computationalmama.xyz" }
-  ]
-
+[
+  {
+    "reading": [
+      {
+        "book": "Unwinding a Death Spiral by Gargi Harikatham",
+        "url": "https://www.instagram.com/p/C-PNEp3IWKg/?img_index=1"
+      },
+      {
+        "book": "In Other Worlds: SF and the Human Imagination by Margaret Atwood",
+        "url": "https://www.amazon.in/Other-Worlds-SF-Human-Imagination/dp/0307741761/"
+      },
+      {
+        "book": "Mother Reader: Essential Writings on Motherhood",
+        "url": "https://www.audible.in/pd/Mother-Reader-Audiobook/"
+      },
+      {
+        "book": "✨ The Baby on the Fire Escape: Creativity, Motherhood, and the Mind-Baby Problem by Julie Phillips",
+        "url": "https://www.amazon.in/Baby-Fire-Escape-Creativity-Motherhood-ebook/dp/B098TX7PB7"
+      }
+    ]
+  },
+  {
+    "admire": [
+      {
+        "name": "Laxmi Hussain",
+        "url": "https://www.instagram.com/thislakshmi/"
+      },
+      {
+        "name": "Christine Mitchell Adams",
+        "url": "https://www.instagram.com/christinemitchelladams/"
+      },
+      {
+        "name": "Afrah Shafiq",
+        "url": "https://www.instagram.com/loveandotheroutdoorgames/"
+      },
+      {
+        "name": "Aarati Akkapeddi",
+        "url": "https://www.instagram.com/aarati.online/"
+      }
+    ]
+  },
+  {
+    "publicthoughts": [
+      {
+        "excerpt": "Notionally, there is an idea of what an artist might look like. It might appear that the artist is controlling the environment. Working with children is quite different. How can you retain focus on your practice when your job as a caregiver is to focus on someone else? It changes your entire perspective.",
+        "url": "https://prohelvetia.ch/en/whats-on/motherhood-and-ai-being-computational-mama/"
+      },
+      {
+        "excerpt": "the image models become bigger and more money is pumped into these data sets, you will see an immediate silence and this absence of these bodies",
+        "url": "https://youtu.be/eUyZ7cIvTZc"
+      },
+      {
+        "excerpt": "Our roles as care-givers or care-receivers in a space of learning are always amorphous and porous. In my experience as a facilitator, learning and imparting knowledge are simultaneous activities and these require everyone to ‘listen’, ‘understand,’ and ‘empathise.’ I think these important verbs also delineate the acts of care-giving. This understanding is not something that came to me naturally but has really come from the experience of being a primary carer.",
+        "url": "/projects/caring-with-computers/"
+      }
+    ]
+  }
+]

@@ -4,7 +4,7 @@ eleventyNavigation:
   key: care and motherhood
   order: 2
 ---
-    <div class="p-4">
+    <div class="py-4 px-12">
       <div
         class="fixed sm:max-w-sm md:max-w-md lg:max-w-full xl:max-w-full lg:text-[240px] -z-40 break-words">
  
@@ -12,25 +12,46 @@ eleventyNavigation:
        
       </div>
 
-      <div><p class="font-comp font-bold  text-2xl">a collection of thoughts, resources, and reflections on care and motherhood</p></div>
+      <div class="max-w-prose">
+        <p class="font-comp font-bold  text-4xl">a collection of thoughts, resources, and reflections on care, code and motherhood</p>
+   
       <div class="readinglist ">
         <h2 class="text-2xl font-comp font-bold"><span class=" bg-rose-500">List of readings</span></h2>
         <ul class="list-disc">
           {% for items in read %}
-          <li>- <a href="{{items.url}}" target="_blank" class="text-lg font-comp font-bold">{{ items.name }}</a></li>
+          {% for read in items.reading %}
+        
+          <li><a href="{{read.url}}" target="_blank" class="text-lg font-mono font-bold">{{ read.book }}</a></li>
+       {% endfor %}
         {% endfor %}
         </ul>
       </div>
-      <div class=" mt-10">
-        <div id="care">
-          <h2 class="font-comp font-bold text-2xl">care</h2>
-      {% set projlist = collections.care | reverse %}
-      {% include "components/carelist.njk" %}
-      </div>
-    <div id="motherhood">
-      <h2 class="font-comp font-bold text-2xl">motherhood</h2>
-       {% set projlist = collections.motherhood | reverse %}
-      {% include "components/carelist.njk" %}
-      </div>
-      </div>
+      <div class="admire ">
+        <h2 class="text-2xl font-comp font-bold"><span class=" bg-rose-500">Some inspiring folks</span></h2>
+        <ul class="list-disc">
+          {% for items in read %}
+          {% for admire in items.admire %}
+        
+          <li><a href="{{admire.url}}" target="_blank" class="text-lg font-mono font-bold">{{ admire.name }}</a></li>
+       {% endfor %}
+        {% endfor %}
+        </ul>
+     </div>
+      <div class="thoughts">
+        <h2 class="text-2xl font-comp font-bold"><span class=" bg-rose-500">Thoughts on motherhood, care, coding, AI</span></h2>
+        <div class="list-disc space-y-6 bg-white/20 backdrop-blur-sm">
+          {% for items in read %}
+          {% for thoughts in items.publicthoughts %}
+          <p class="text-lg font-mono border-2 rounded-md p-6">
+         "{{ thoughts.excerpt }}"
+           
+          <a href="{{thoughts.url}}" target="_blank" class="text-base font-comp font-bold">
+            link here
+          </a>
+          </p>
+       {% endfor %}
+        {% endfor %}
+        </div>
+     </div>
     </div>
+     </div>
