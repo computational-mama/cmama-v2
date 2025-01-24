@@ -1,5 +1,4 @@
 const htmlmin = require('html-minifier')
-const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 const embedEverything = require("eleventy-plugin-embed-everything");
 const embedYouTube = require("eleventy-plugin-youtube-embed");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
@@ -17,6 +16,7 @@ module.exports = function(eleventyConfig) {
    * Files to copy
    * https://www.11ty.dev/docs/copy/
    */
+
   eleventyConfig.addPassthroughCopy("src/img");
   eleventyConfig.addPassthroughCopy("img/fonts");
 
