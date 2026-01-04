@@ -63,4 +63,8 @@ content:
       - name: github
         label: github link
         type: string
-        pattern: ^(https?:\/\/)?(www\.)?[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/[^\s]*)?$ 
+        pattern: ^(https?:\/\/)?(www\.)?[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/[^\s]*)?$
+  - name: events
+    label: Events
+    path: src/_data/events.json
+    type: file
