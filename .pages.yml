@@ -24,7 +24,11 @@ content:
         type: date
       - name: tags
         label: Tags
-        type: string[]
+        type: string
+      - name: featured
+        label: Featured
+        type: boolean
+        default: false
       - name: body
         label: Body
         type: rich-text
