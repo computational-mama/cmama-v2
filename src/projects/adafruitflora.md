@@ -5,7 +5,7 @@ date: 2024-07-26
 tags: 
  - e-textiles
  - arduino
-featured: true
+featured: false
 featimg: https://github.com/user-attachments/assets/64570160-1455-4b8d-a4e2-50bc2d7fc9a2
 ---
 
@@ -66,4 +66,3 @@ This is the repo with all the tests and libraries for the Adafruit Flora v3 for 
 
 <video src="https://github.com/user-attachments/assets/b08864ab-df57-4d22-9e33-48c95b74be47
 " width="320" height="240" controls></video>
-

@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
 ---
-    <div class="p-4">
+    <div class="">
        <div class="grid-container -z-50">
           <img class="w-56" src="/img/cardsheet-faceplate.jpg">
           <img class="w-56" src="/img/poetry-together.png">
@@ -9,15 +9,15 @@ layout: layouts/base.njk
           <img class="w-56" src="/img/cwf-vai-nk2.gif">
           <img class="w-56" src="/img/posenet-early.gif">
           <img class="w-56" src="/img/poetry-t.gif">
-        
+
         </div>
-       
+
       <div
         class="sm:max-w-sm md:max-w-md lg:max-w-full xl:max-w-full lg:text-[240px] -z-40 wrap-break-word">
         <h1 class="font-cirrus text-header text-rose-400 max-w-prose" id="banner-text"></h1>
-       
-      </div> 
-      <div class="indexpagecontent m-5">
+
+      </div>
+      <div class="indexpagecontent mx-5 -my-3">
       <h2 class="text-xl max-w-prose font-mono z-50">
         <span class=" bg-rose-500 md:bg-rose-500/80  lg:bg-rose-500/80  xl:bg-rose-500/80  2xl:bg-rose-500/80">{{ site.description }}</span>
         </h2>
@@ -25,9 +25,9 @@ layout: layouts/base.njk
           <p class="font-mono max-w-prose text-black"><span class=" bg-rose-500">Some recent highlights below:</span></p>
         <div class=" go-to w-full flex flex-col md:flex-row lg:flex-row xl:flex-row 2xl:flex-row flex-wrap">
           <div class="flex flex-row">
-      
+
       <div class="featured">
-  
+
       {% set projlist = collections.projects %} {% include
       "components/featured.njk" %}
       </div>

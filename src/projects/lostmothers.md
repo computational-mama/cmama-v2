@@ -39,4 +39,3 @@ The project takes the form of a fictional archive, presented as a website (archi
 
 ## Intended affect
 The artist aimed to explore the "silences" and absences in AI representations of motherhood, particularly from non-Western perspectives. By creating surreal, evolved mothers, she sought to speculate on how motherhood might adapt to impossible demands. The project also serves as a commentary on AI biases and the potential loss of diverse representations as AI image generation becomes more prevalent. The interactive nature of the archive invites viewers to engage with these ideas and contribute their own perspectives.
-

@@ -1,105 +1,105 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @theme {
-  --font-*: initial;
-  --font-mono: JetBrains Mono, monospace;
-  --font-cirrus: CirrusCumulus, sans-serif;
-  --font-comp: Compagnon, sans-serif;
+    --font-*: initial;
+    --font-mono: JetBrains Mono, monospace;
+    --font-cirrus: CirrusCumulus, sans-serif;
+    --font-comp: Compagnon, sans-serif;
 
-  --color-*: initial;
-  --color-black: #000;
-  --color-white: #fff;
+    --color-*: initial;
+    --color-black: #000;
+    --color-white: #fff;
 
-  --color-gray-50: #f9fafb;
-  --color-gray-100: #f3f4f6;
-  --color-gray-200: #e5e7eb;
-  --color-gray-300: #d1d5db;
-  --color-gray-400: #9ca3af;
-  --color-gray-500: #6b7280;
-  --color-gray-600: #4b5563;
-  --color-gray-700: #374151;
-  --color-gray-800: #1f2937;
-  --color-gray-900: #111827;
-  --color-gray-950: #030712;
+    --color-gray-50: #f9fafb;
+    --color-gray-100: #f3f4f6;
+    --color-gray-200: #e5e7eb;
+    --color-gray-300: #d1d5db;
+    --color-gray-400: #9ca3af;
+    --color-gray-500: #6b7280;
+    --color-gray-600: #4b5563;
+    --color-gray-700: #374151;
+    --color-gray-800: #1f2937;
+    --color-gray-900: #111827;
+    --color-gray-950: #030712;
 
-  --color-rose-50: #fff1f2;
-  --color-rose-100: #ffe4e6;
-  --color-rose-200: #fecdd3;
-  --color-rose-300: #fda4af;
-  --color-rose-400: #fb7185;
-  --color-rose-500: #f43f5e;
-  --color-rose-600: #e11d48;
-  --color-rose-700: #be123c;
-  --color-rose-800: #9f1239;
-  --color-rose-900: #881337;
-  --color-rose-950: #4c0519;
+    --color-rose-50: #fff1f2;
+    --color-rose-100: #ffe4e6;
+    --color-rose-200: #fecdd3;
+    --color-rose-300: #fda4af;
+    --color-rose-400: #fb7185;
+    --color-rose-500: #f43f5e;
+    --color-rose-600: #e11d48;
+    --color-rose-700: #be123c;
+    --color-rose-800: #9f1239;
+    --color-rose-900: #881337;
+    --color-rose-950: #4c0519;
 
-  --color-red-50: #fef2f2;
-  --color-red-100: #fee2e2;
-  --color-red-200: #fecaca;
-  --color-red-300: #fca5a5;
-  --color-red-400: #f87171;
-  --color-red-500: #ef4444;
-  --color-red-600: #dc2626;
-  --color-red-700: #b91c1c;
-  --color-red-800: #991b1b;
-  --color-red-900: #7f1d1d;
-  --color-red-950: #450a0a;
+    --color-red-50: #fef2f2;
+    --color-red-100: #fee2e2;
+    --color-red-200: #fecaca;
+    --color-red-300: #fca5a5;
+    --color-red-400: #f87171;
+    --color-red-500: #ef4444;
+    --color-red-600: #dc2626;
+    --color-red-700: #b91c1c;
+    --color-red-800: #991b1b;
+    --color-red-900: #7f1d1d;
+    --color-red-950: #450a0a;
 
-  --color-fuchsia-50: #fdf4ff;
-  --color-fuchsia-100: #fae8ff;
-  --color-fuchsia-200: #f5d0fe;
-  --color-fuchsia-300: #f0abfc;
-  --color-fuchsia-400: #e879f9;
-  --color-fuchsia-500: #d946ef;
-  --color-fuchsia-600: #c026d3;
-  --color-fuchsia-700: #a21caf;
-  --color-fuchsia-800: #86198f;
-  --color-fuchsia-900: #701a75;
-  --color-fuchsia-950: #4a044e;
+    --color-fuchsia-50: #fdf4ff;
+    --color-fuchsia-100: #fae8ff;
+    --color-fuchsia-200: #f5d0fe;
+    --color-fuchsia-300: #f0abfc;
+    --color-fuchsia-400: #e879f9;
+    --color-fuchsia-500: #d946ef;
+    --color-fuchsia-600: #c026d3;
+    --color-fuchsia-700: #a21caf;
+    --color-fuchsia-800: #86198f;
+    --color-fuchsia-900: #701a75;
+    --color-fuchsia-950: #4a044e;
 
-  --color-pink-50: #fdf2f8;
-  --color-pink-100: #fce7f3;
-  --color-pink-200: #fbcfe8;
-  --color-pink-300: #f9a8d4;
-  --color-pink-400: #f472b6;
-  --color-pink-500: #ec4899;
-  --color-pink-600: #db2777;
-  --color-pink-700: #be185d;
-  --color-pink-800: #9d174d;
-  --color-pink-900: #831843;
-  --color-pink-950: #500724;
+    --color-pink-50: #fdf2f8;
+    --color-pink-100: #fce7f3;
+    --color-pink-200: #fbcfe8;
+    --color-pink-300: #f9a8d4;
+    --color-pink-400: #f472b6;
+    --color-pink-500: #ec4899;
+    --color-pink-600: #db2777;
+    --color-pink-700: #be185d;
+    --color-pink-800: #9d174d;
+    --color-pink-900: #831843;
+    --color-pink-950: #500724;
 
-  --color-slate-50: #f8fafc;
-  --color-slate-100: #f1f5f9;
-  --color-slate-200: #e2e8f0;
-  --color-slate-300: #cbd5e1;
-  --color-slate-400: #94a3b8;
-  --color-slate-500: #64748b;
-  --color-slate-600: #475569;
-  --color-slate-700: #334155;
-  --color-slate-800: #1e293b;
-  --color-slate-900: #0f172a;
-  --color-slate-950: #020617;
+    --color-slate-50: #f8fafc;
+    --color-slate-100: #f1f5f9;
+    --color-slate-200: #e2e8f0;
+    --color-slate-300: #cbd5e1;
+    --color-slate-400: #94a3b8;
+    --color-slate-500: #64748b;
+    --color-slate-600: #475569;
+    --color-slate-700: #334155;
+    --color-slate-800: #1e293b;
+    --color-slate-900: #0f172a;
+    --color-slate-950: #020617;
 
-  --color-orange-50: #fff7ed;
-  --color-orange-100: #ffedd5;
-  --color-orange-200: #fed7aa;
-  --color-orange-300: #fdba74;
-  --color-orange-400: #fb923c;
-  --color-orange-500: #f97316;
-  --color-orange-600: #ea580c;
-  --color-orange-700: #c2410c;
-  --color-orange-800: #9a3412;
-  --color-orange-900: #7c2d12;
-  --color-orange-950: #431407;
+    --color-orange-50: #fff7ed;
+    --color-orange-100: #ffedd5;
+    --color-orange-200: #fed7aa;
+    --color-orange-300: #fdba74;
+    --color-orange-400: #fb923c;
+    --color-orange-500: #f97316;
+    --color-orange-600: #ea580c;
+    --color-orange-700: #c2410c;
+    --color-orange-800: #9a3412;
+    --color-orange-900: #7c2d12;
+    --color-orange-950: #431407;
 
-  --breakpoint-*: initial;
-  --breakpoint-sm: 640px;
-  --breakpoint-md: 768px;
-  --breakpoint-lg: 1024px;
-  --breakpoint-xl: 1280px;
-  --breakpoint-2xl: 1536px;
+    --breakpoint-*: initial;
+    --breakpoint-sm: 640px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1024px;
+    --breakpoint-xl: 1280px;
+    --breakpoint-2xl: 1536px;
 }
 
 /*
@@ -111,131 +111,133 @@
   color utility to any element that depends on these defaults.
 */
 @layer base {
-  *,
-  ::after,
-  ::before,
-  ::backdrop,
-  ::file-selector-button {
-    border-color: var(--color-gray-200, currentcolor);
-  }
+    *,
+    ::after,
+    ::before,
+    ::backdrop,
+    ::file-selector-button {
+        border-color: var(--color-gray-200, currentcolor);
+    }
 }
 
 @utility text-header {
-  line-height: 5.5rem !important;
+    line-height: 5.5rem !important;
 }
 
 @utility grid-container {
-  position: relative;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
 
-  & img {
-    position: absolute;
-    max-width: 200px;
-    height: auto;
-    /* transition: all 0.3s ease; */
-    transform: translate(var(--x-position), var(--y-position)) scale(0.75);
-  }
+    & img {
+        position: absolute;
+        max-width: 200px;
+        height: auto;
+        /* transition: all 0.3s ease; */
+        transform: translate(var(--x-position), var(--y-position)) scale(0.75);
+    }
 }
 
 @layer utilities {
-  @font-face {
-    font-family: 'CirrusCumulus';
-    src: url('../img/fonts/CirrusCumulus.woff') format('woff');
-  }
+    @font-face {
+        font-family: "CirrusCumulus";
+        src: url("../img/fonts/CirrusCumulus.woff") format("woff");
+    }
 
-  @font-face {
-    font-family: 'Compagnon';
-    src: url('../img/fonts/Compagnon-Roman.woff') format('woff');
-  }
+    @font-face {
+        font-family: "Compagnon";
+        src: url("../img/fonts/Compagnon-Roman.woff") format("woff");
+    }
 
-  @font-face {
-    font-family: 'Compagnon';
-    src: url('../img/fonts/Compagnon-Bold.woff') format('woff');
-    font-weight: bold;
-  }
+    @font-face {
+        font-family: "Compagnon";
+        src: url("../img/fonts/Compagnon-Bold.woff") format("woff");
+        font-weight: bold;
+    }
 
-  @font-face {
-    font-family: 'Compagnon';
-    src: url('../img/fonts/Compagnon-Italic.woff') format('woff');
-    font-style: italic;
-  }
+    @font-face {
+        font-family: "Compagnon";
+        src: url("../img/fonts/Compagnon-Italic.woff") format("woff");
+        font-style: italic;
+    }
 
-  @font-face {
-    font-family: 'Compagnon';
-    src: url('../img/fonts/Compagnon-Light.woff') format('woff');
-    font-weight: light;
-  }
+    @font-face {
+        font-family: "Compagnon";
+        src: url("../img/fonts/Compagnon-Light.woff") format("woff");
+        font-weight: light;
+    }
 
-  @font-face {
-    font-family: 'Compagnon';
-    src: url('../img/fonts/Compagnon-Medium.woff') format('woff');
-    font-weight: medium;
-  }
+    @font-face {
+        font-family: "Compagnon";
+        src: url("../img/fonts/Compagnon-Medium.woff") format("woff");
+        font-weight: medium;
+    }
 
-  h1 {
-    @apply text-4xl py-4;
-  }
+    h1 {
+        @apply text-4xl py-4;
+    }
 
-  h2 {
-    @apply text-2xl py-4;
-  }
+    h2 {
+        @apply text-2xl py-4;
+    }
 
-  h3 {
-    @apply text-xl py-4;
-  }
+    h3 {
+        @apply text-xl py-4;
+    }
 
-  a {
-    @apply underline;
-  }
+    a {
+        @apply underline;
+    }
 
-  p {
-    @apply py-3 text-slate-700;
-  }
+    p {
+        @apply py-3 text-slate-700;
+    }
 
-  ::selection {
-    @apply bg-rose-500;
-  }
+    ::selection {
+        @apply bg-rose-500;
+    }
 
-  em {
-    @apply bg-rose-500 text-orange-100;
-  }
+    em {
+        @apply bg-rose-500 text-orange-100;
+    }
 
-  sup {
-    @apply text-xs;
-  }
+    sup {
+        @apply text-xs;
+    }
 
-  a:hover {
-    @apply bg-rose-500  no-underline;
-  }
+    a:hover {
+        @apply bg-rose-500  no-underline;
+    }
 
-  .eleventy-plugin-embed-instagram {
-    @apply w-full my-6;
-  }
+    .eleventy-plugin-embed-instagram {
+        @apply w-full my-6;
+    }
 
-  .eleventy-plugin-youtube-embed {
-    @apply my-6;
-  }
+    .eleventy-plugin-youtube-embed {
+        @apply my-6;
+    }
 
-  #content > ul {
-    @apply text-slate-700 list-disc pl-5 space-y-3 marker:text-slate-700  py-2;
-  }
+    #content > ul {
+        @apply text-slate-700 list-disc pl-5 space-y-3 marker:text-slate-700  py-2;
+    }
 
-  #navbar > ul {
-    @apply list-none;
-  }
+    #content > ol {
+        @apply text-slate-700 list-decimal pl-5 space-y-3 marker:text-slate-700  py-2;
+    }
 
-  blockquote {
-    @apply rounded-sm bg-orange-200 px-8 py-6 my-4;
-  }
+    #navbar > ul {
+        @apply list-none;
+    }
 
-  canvas {
-    @apply fixed top-0 -z-40;
-  }
+    blockquote {
+        @apply rounded-sm bg-orange-200 px-8 py-6 my-4;
+    }
 
-  .text-header {
-    @apply text-8xl break-all;
-  }
+    canvas {
+        @apply fixed top-0 -z-40;
+    }
+
+    .text-header {
+        @apply text-8xl break-all;
+    }
 }
-
-
