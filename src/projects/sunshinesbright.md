@@ -1,7 +1,7 @@
 ---
 title: Sun Shines Bright
 description: An ongoing and updated post about explorations on e-textiles with Studio Dabu 
-date: 2024-07-26
+date: 2025-01-26
 tags: 
  - AI
  - self-hosting
