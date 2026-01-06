@@ -6,7 +6,7 @@ eleventyNavigation:
 ---
     <div class="py-4 px-12">
       <div
-        class="fixed sm:max-w-sm md:max-w-md lg:max-w-full xl:max-w-full lg:text-[240px] -z-40 break-words">
+        class="fixed sm:max-w-sm md:max-w-md lg:max-w-full xl:max-w-full lg:text-[240px] -z-40 wrap-break-word">
  
         <h1 class="font-cirrus text-header text-rose-300" id="banner-text"></h1>
        
@@ -16,7 +16,7 @@ eleventyNavigation:
         <p class="font-comp font-bold  text-4xl">a collection of thoughts, resources, and reflections on care, code and motherhood</p>
    <div class="thoughts">
         <h2 class="text-2xl font-comp font-bold"><span class=" bg-rose-500">Thoughts on motherhood, care, coding, AI</span></h2>
-        <div class="list-disc space-y-6 bg-white/20 backdrop-blur-sm">
+        <div class="list-disc space-y-6 bg-white/20 backdrop-blur-xs">
           {% for items in read %}
           {% for thoughts in items.publicthoughts %}
           <p class="text-lg font-mono border-2 rounded-md p-6">

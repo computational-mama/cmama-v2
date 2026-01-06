@@ -1,8 +1,8 @@
-# cmama 2025
+# cmama 2026
 
 ## Stack
 
-* TailwindCSS v3
+* TailwindCSS v4
 * Apline.js v3
 
 ## Install
