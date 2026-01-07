@@ -30,10 +30,5 @@ _site
 
 #Generated hash data
 _data/hash.json
-src/.obsidian/workspace.json
-src/.obsidian/app.json
-src/.obsidian/appearance.json
-src/.obsidian/core-plugins.json
-src/.obsidian/templates.json
-src/template/template-obsidian.md
-src/.obsidian/backlink.json
+src/.obsidian/*
+src/template/*

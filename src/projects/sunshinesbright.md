@@ -12,6 +12,7 @@ featimg: /img/sunshinesposter.jpeg
 ---
 
 # Experiments in running solar powered servers for Small Language Models
+
 ![](/img/sunshinesposter.jpeg)
 
 ## Intro
