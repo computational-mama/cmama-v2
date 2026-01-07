@@ -1,7 +1,7 @@
 <div
-  class="go-to w-full flex flex-row flex-wrap"
+  class="go-to w-full flex flex-row flex-wrap justify-center"
 >
-  {% for post in projlist %} 
+  {% for post in projlist %}
   {% if post.data.featured %}
   <a
     class="no-underline bg-center bg-cover bg-repeat bg-blend-darken border-2 border-rose-500 rounded-lg p-8 mx-4 my-2"
@@ -19,7 +19,7 @@
       {% endfor %}
     </div>
   </a>
-  {% endif %} 
+  {% endif %}
 
   {% endfor %}
     {% for event in events %}
@@ -35,9 +35,9 @@
       <span class="text-white font-comp font-bold"> {{ event.title }}</span> <span class="rotate-45 text-white"> &rarr;</span>
       <br />
             <span class="bg-white/80 rounded-xs px-2 font-mono  italic text-xs">{{ event.location }} {{ event.date }}</span>
-     
+
     </div>
   </a>
-  {% endif %} 
+  {% endif %}
   {% endfor %}
 </div>

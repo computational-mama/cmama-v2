@@ -7,10 +7,10 @@ eleventyNavigation:
 
 {% include "components/banner.njk" %}
 <div class="go-to w-full p-4">
-  <p class="font-comp font-bold text-4xl">{{eleventyNavigation.key}}</p>
+  <p class="font-comp font-bold text-4xl text-center">{{eleventyNavigation.key}}</p>
 
-  <p class="font-comp font-bold text-2xl">talks</p>
-  <div class="flex flex-row flex-wrap">
+  <p class="font-comp font-bold text-2xl text-center">talks</p>
+  <div class="mx-auto w-full flex flex-col flex-wrap justify-center md:flex-row lg:flex-row xl:flex-row 2xl:flex-row md:w-2/3 lg:w-2/3  xl:w-2/3  2xl:w-2/3">
     {% for event in events %} {% if event.type == "talk" %}
     <a
       class="no-underline bg-center bg-cover bg-repeat bg-blend-darken border-2 border-rose-500 rounded-lg p-2 m-3"
@@ -60,8 +60,8 @@ eleventyNavigation:
     {% endif %} {% endfor %}
   </div>
 
-  <p class="font-comp font-bold text-2xl">workshops</p>
-  <div class="flex flex-row flex-wrap">
+  <p class="font-comp font-bold text-2xl text-center">workshops</p>
+  <div class="mx-auto w-full flex flex-col flex-wrap justify-center md:flex-row lg:flex-row xl:flex-row 2xl:flex-row md:w-2/3 lg:w-2/3  xl:w-2/3  2xl:w-2/3">
     {% for event in events %} {% if event.type == "workshop" %}
 
     <a

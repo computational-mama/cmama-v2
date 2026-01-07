@@ -7,12 +7,12 @@ eleventyNavigation:
     <div class="py-4 px-12">
       <div
         class="fixed sm:max-w-sm md:max-w-md lg:max-w-full xl:max-w-full lg:text-[240px] -z-40 wrap-break-word">
- 
+
         <h1 class="font-cirrus text-header text-rose-300" id="banner-text"></h1>
-       
+
       </div>
 
-      <div class="max-w-prose">
+      <div class="max-w-prose mx-auto">
         <p class="font-comp font-bold  text-4xl">a collection of thoughts, resources, and reflections on care, code and motherhood</p>
    <div class="thoughts">
         <h2 class="text-2xl font-comp font-bold"><span class=" bg-rose-500">Thoughts on motherhood, care, coding, AI</span></h2>
@@ -21,7 +21,7 @@ eleventyNavigation:
           {% for thoughts in items.publicthoughts %}
           <p class="text-lg font-mono border-2 rounded-md p-6">
          "{{ thoughts.excerpt }}"
-           
+
           <a href="{{thoughts.url}}" target="_blank" class="text-base font-comp font-bold">
             link here
           </a>
@@ -35,7 +35,7 @@ eleventyNavigation:
         <ul class="list-disc">
           {% for items in read %}
           {% for read in items.reading %}
-        
+
           <li><a href="{{read.url}}" target="_blank" class="text-lg font-mono font-bold">{{ read.book }}</a></li>
        {% endfor %}
         {% endfor %}
@@ -46,12 +46,12 @@ eleventyNavigation:
         <ul class="list-disc">
           {% for items in read %}
           {% for admire in items.admire %}
-        
+
           <li><a href="{{admire.url}}" target="_blank" class="text-lg font-mono font-bold">{{ admire.name }}</a></li>
        {% endfor %}
         {% endfor %}
         </ul>
      </div>
-      
+
     </div>
      </div>
