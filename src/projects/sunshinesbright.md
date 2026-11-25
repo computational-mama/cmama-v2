@@ -47,7 +47,13 @@ I’m trying to document the whole process on this [website](https://solararchiv
 - **April 2025:** [workshop at NYU Shanghai](https://solararchive.cmama.xyz/2025/04/workshop-nyushanghai/), where faculty and students set up their own servers on Raspberry Pis.
 - **Since September 2025:** training small language models on non-white feminist data, with a small research fund from Media Design, HEAD Genève. See [how to fine-tune a model](https://solararchive.cmama.xyz/2025/11/howtofinetuneamodel/) and [community dataset creation](https://solararchive.cmama.xyz/2025/11/community-dataset-creation/).
 - **February 2026:** a 5-day Sun Shines Bright workshop with HEAD Genève's MA Media Design.
+
+![Sun Shines Bright workshop at HEAD Genève. Photo: James Pascale](/img/events/head-workshop-class.jpg)
+
 - **May 2026:** took the project to the [REAL ML workshop in Johannesburg](https://solararchive.cmama.xyz/2026/06/realml/).
 - **2026:** [Solarbot](https://solararchive.cmama.xyz/2026/10/solarbot/), a portable feminist AI server. It runs fully offline on a Raspberry Pi 5 with a PiSugar battery, a Whisplay screen (speaker and mic) and a 60W portable solar panel. Press the button, speak, and get a short spoken answer. Live power data lives on the [Solarbot dashboard](https://solarbot.cmama.xyz/).
+
+![Solarbot: a Raspberry Pi 5 with a PiSugar Whisplay screen](/img/events/solarbot.jpg)
+
 - **October 2026:** Sun Shines Bright zines at MozFest and Broncode, made with Ying Drubbel.
 - **November 2026:** [a tiny model on an ESP32](https://solararchive.cmama.xyz/2026/11/esp32-comparison/). The same 10 questions on an ESP32 microcontroller and on the Pi: the ESP32 used about 3.9 times the energy and took about 19 times as long.
