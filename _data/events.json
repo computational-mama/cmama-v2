@@ -1,5 +1,45 @@
 [
     {
+      "id": 21,
+      "title": "Sun Shines Bright zines @ AIxDESIGN Zine Library",
+      "location": "MozFest, Recinte Fabra i Coats, Barcelona",
+      "date": "October 2026",
+      "image": "",
+      "eventlink": "https://www.mozillafoundation.org/en/festival/",
+      "featured": true,
+      "type": "talk"
+    },
+    {
+      "id": 22,
+      "title": "Alt-tech initiatives in the majority world: Who questions, cares & builds?",
+      "location": "MozFest, Barcelona (with Sneha PP, Saumyaa Naidu, Ranjani Prasad)",
+      "date": "October 2026",
+      "image": "",
+      "eventlink": "https://www.mozillafoundation.org/en/festival/",
+      "featured": true,
+      "type": "talk"
+    },
+    {
+      "id": 23,
+      "title": "Panel: The future of FOSS, SWE and Technical Education (with Kailash Nadh)",
+      "location": "IndiaFOSS 2026, NIMHANS Convention Centre, Bengaluru",
+      "date": "September 2026",
+      "image": "",
+      "eventlink": "https://fossunited.org/indiafoss/2026",
+      "featured": true,
+      "type": "talk"
+    },
+    {
+      "id": 24,
+      "title": "Ambika Joshi: Computational Mama",
+      "location": "NYU Shanghai",
+      "date": "April 2025",
+      "image": "",
+      "eventlink": "https://ima.shanghai.nyu.edu/events/ambika-joshi-computational-mama",
+      "featured": false,
+      "type": "talk"
+    },
+    {
       "id": 1,
       "title": "Measuring Silences",
       "location": "HEAD, Geneve",
