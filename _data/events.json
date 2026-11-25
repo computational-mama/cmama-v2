@@ -50,12 +50,42 @@
       "type": "talk"
     },
     {
+      "id": 32,
+      "title": "Rewiring Realities: Archive of Lost Mothers (exhibition)",
+      "location": "Porto, curated by Joana Chicau",
+      "date": "June - July 2026",
+      "image": "",
+      "eventlink": "https://www.instagram.com/p/DZpIjUlDu1-/",
+      "featured": false,
+      "type": "talk"
+    },
+    {
+      "id": 33,
+      "title": "Sun Shines Bright @ REAL ML workshop",
+      "location": "Johannesburg",
+      "date": "May 2026",
+      "image": "",
+      "eventlink": "https://solararchive.cmama.xyz/2026/06/realml/",
+      "featured": false,
+      "type": "talk"
+    },
+    {
       "id": 27,
       "title": "Sun Shines Bright (Future of the Commons talk)",
       "location": "Online, OKI IIIT Hyderabad",
       "date": "April 2026",
       "image": "",
       "eventlink": "https://www.youtube.com/watch?v=Dt8xPbeE5sc",
+      "featured": false,
+      "type": "talk"
+    },
+    {
+      "id": 34,
+      "title": "Symposium: Algorithms got the power (?)",
+      "location": "ArtEZ University of the Arts, Arnhem",
+      "date": "January 2026",
+      "image": "",
+      "eventlink": "https://www.instagram.com/p/DUIZAp9jLw4/",
       "featured": false,
       "type": "talk"
     },
@@ -241,6 +271,17 @@
       "type": "workshop"
     },
     {
+      "id": 35,
+      "title": "Sun Shines Bright: AI & Design in times of climate crisis",
+      "location": "@ HEAD Genève, MA Media Design (IN-PERSON)",
+      "date": "February 2026",
+      "image": "",
+      "description": "A 5-day workshop on AI infrastructures, building and hosting local language models, critical AI bots and renewable energy prototypes.",
+      "eventlink": "https://www.instagram.com/p/DUSnwz7CDbx/",
+      "featured": false,
+      "type": "workshop"
+    },
+    {
       "id": 31,
       "title": "DIY/AI 2 Working Group",
       "location": "@ NEW INC, New Museum x AIxDESIGN (ONLINE)",
@@ -248,6 +289,39 @@
       "image": "",
       "description": "Two guest sessions in the DIY/AI 2 winter working group for NEW INC members, on small, self-hosted and community-made AI.",
       "eventlink": "",
+      "featured": false,
+      "type": "workshop"
+    },
+    {
+      "id": 36,
+      "title": "Small data, small AI lab",
+      "location": "@ Iterations, The Grey Space in the Middle, The Hague (IN-PERSON)",
+      "date": "November 2025",
+      "image": "",
+      "description": "A two-day community lab on small datasets and small scale AI as alternatives to big tech, with Lina Lab and Ivan Paz.",
+      "eventlink": "https://www.instagram.com/p/DQ9aHOcDL-n/",
+      "featured": false,
+      "type": "workshop"
+    },
+    {
+      "id": 37,
+      "title": "code.yatra",
+      "location": "@ Ajaibghar, Godrej Design Lab Fellowship (Udaipur, Jaipur, Vadodara)",
+      "date": "2025",
+      "image": "",
+      "description": "A year-long journey of masterclasses, workshops and meetups where yatris made live-coded audio-visual works with Sonic Pi and p5.js.",
+      "eventlink": "https://www.instagram.com/p/DaAtPsNkwdI/",
+      "featured": false,
+      "type": "workshop"
+    },
+    {
+      "id": 38,
+      "title": "Self-hosting AI on Raspberry Pis",
+      "location": "@ NYU Shanghai (IN-PERSON)",
+      "date": "April 2025",
+      "image": "",
+      "description": "A workshop for faculty and students to set up their own small language model servers on Raspberry Pis.",
+      "eventlink": "https://solararchive.cmama.xyz/2025/04/workshop-nyushanghai/",
       "featured": false,
       "type": "workshop"
     },
