@@ -7,8 +7,6 @@ tags:
  - self-hosting
  - Raspberry Pi
  - Solar Power
- - Broncode
- - Zine
 featured: true
 featimg: /img/sunshinesposter.jpeg
 ---
@@ -45,12 +43,5 @@ Urging software architects and system thinkers to tinker with us and build bette
 
 I’m trying to document the whole process on this [website](https://solararchive.cmama.xyz/)!
 
-## Shown at Broncode (AIxDesign)
 
-*Sun Shines Bright Vol.1*, a fold-out zine on running solar powered servers for small language models, is part of [Broncode](https://aixdesign.co/projects/broncode) by AIxDesign. The zine hangs alongside work by other artists and collectives, each tagged with a small label card.
-
-![Sun Shines Bright Vol.1 zine hanging in the Broncode installation](/img/broncode-sunshines-zine.jpg)
-
-![The Sun Shines Bright label card: India / NL, 2025](/img/broncode-sunshines-tag.jpg)
-
-![The zine cover drawing among the hanging Broncode zines](/img/broncode-sunshines-hanging.jpg)
+The project is also a series of printed zines, read more on [Sun Shines Bright Zines](/projects/sunshines-zines/).
