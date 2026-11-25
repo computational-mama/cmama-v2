@@ -55,5 +55,7 @@ I’m trying to document the whole process on this [website](https://solararchiv
 
 ![Solarbot: a Raspberry Pi 5 with a PiSugar Whisplay screen](/img/events/solarbot.jpg)
 
-- **October 2026:** Sun Shines Bright zines at MozFest and Broncode, made with Ying Drubbel.
+- **October 2026:** [Sun Shines Bright zines](/projects/sunshines-zines/) at MozFest and Broncode, made with Ying Drubbel.
 - **November 2026:** [a tiny model on an ESP32](https://solararchive.cmama.xyz/2026/11/esp32-comparison/). The same 10 questions on an ESP32 microcontroller and on the Pi: the ESP32 used about 3.9 times the energy and took about 19 times as long.
+
+The project is also a series of printed zines, read more on [Sun Shines Bright Zines](/projects/sunshines-zines/).
