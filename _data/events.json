@@ -1,5 +1,25 @@
 [
     {
+      "id": 25,
+      "title": "Keynote, DHARTI 2026",
+      "location": "KIIT, Bhubaneswar",
+      "date": "December 2026",
+      "image": "",
+      "eventlink": "",
+      "featured": true,
+      "type": "talk"
+    },
+    {
+      "id": 26,
+      "title": "Broncode: books in the AI era (AIxDESIGN exhibition)",
+      "location": "KB, National Library of the Netherlands, The Hague",
+      "date": "November 2026",
+      "image": "",
+      "eventlink": "https://www.kb.nl/agenda/expositie-broncode-boeken-het-ai-tijdperk",
+      "featured": true,
+      "type": "talk"
+    },
+    {
       "id": 21,
       "title": "Sun Shines Bright zines @ AIxDESIGN Zine Library",
       "location": "MozFest, Recinte Fabra i Coats, Barcelona",
@@ -27,6 +47,36 @@
       "image": "",
       "eventlink": "https://fossunited.org/indiafoss/2026",
       "featured": true,
+      "type": "talk"
+    },
+    {
+      "id": 27,
+      "title": "Sun Shines Bright (Future of the Commons talk)",
+      "location": "Online, OKI IIIT Hyderabad",
+      "date": "April 2026",
+      "image": "",
+      "eventlink": "https://www.youtube.com/watch?v=Dt8xPbeE5sc",
+      "featured": false,
+      "type": "talk"
+    },
+    {
+      "id": 28,
+      "title": "Pre-AI Impact Summit (Design Beku x APC)",
+      "location": "India",
+      "date": "January 2026",
+      "image": "",
+      "eventlink": "",
+      "featured": false,
+      "type": "talk"
+    },
+    {
+      "id": 29,
+      "title": "Guest lecture, Master of Interaction Design",
+      "location": "SUPSI, Mendrisio",
+      "date": "November 2025",
+      "image": "",
+      "eventlink": "https://maind.supsi.ch/master-interaction-design/en/news/code-as-a-practice-of-care-ambika-joshi",
+      "featured": false,
       "type": "talk"
     },
     {
@@ -178,6 +228,28 @@
       "eventlink": "http://algorave.in/events/delhi-2019.html",
       "featured": false,
       "type": "talk"
+    },
+    {
+      "id": 30,
+      "title": "DIY/AI Working Group: Community Computing",
+      "location": "@ NEW INC x AIxDESIGN, with Ploi (ONLINE)",
+      "date": "November 2026",
+      "image": "",
+      "description": "A working group session co-led with Ploipailin Flynn of AIxDESIGN on deploying DIY AI with community computing stacks.",
+      "eventlink": "",
+      "featured": false,
+      "type": "workshop"
+    },
+    {
+      "id": 31,
+      "title": "DIY/AI 2 Working Group",
+      "location": "@ NEW INC, New Museum x AIxDESIGN (ONLINE)",
+      "date": "February 2026",
+      "image": "",
+      "description": "Two guest sessions in the DIY/AI 2 winter working group for NEW INC members, on small, self-hosted and community-made AI.",
+      "eventlink": "",
+      "featured": false,
+      "type": "workshop"
     },
     {
         "id": 15,
