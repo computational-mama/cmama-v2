@@ -41,6 +41,6 @@ Sun Shines Bright is part of [Broncode](https://aixdesign.co/projects/broncode),
 - On view: 29 October 2026 to 30 January 2027, free for all
 - Place: [KB, The Hague](https://www.kb.nl/agenda/expositie-broncode-boeken-het-ai-tijdperk)
 
-### MozFest 2026
+### MozFest 2026, Barcelona
 
-The zines were also shown at MozFest 2026.
+The zines were also shown at MozFest 2026 in Barcelona.
